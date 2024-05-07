@@ -1,7 +1,7 @@
 ---
 # 基本信息
-title: {{ Hello World }}
-date: {{ date }}
+title: Hello World
+date: 2024-5-7
 tags: []
 categories: []
 description: # excerpt 也可 
