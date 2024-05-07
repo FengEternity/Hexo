@@ -3,12 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Monty Lee's Blog
 subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: en
+language:
+      - en
+      - zh-CN
 timezone: ''
 
 # URL
