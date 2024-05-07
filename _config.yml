@@ -3,24 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Monty Lee's Blog
+title: Monty Lee
 subtitle: ''
-description: ''
-keywords:
+description: Monty Lee's Blog
+keywords: Monty Lee, Monty, Lee, Blog, 博客, 技术, 生活, 个人，计算机, 互联网, 程序员, 开发者, Developer, Programmer
 author: Monty _Lee
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://montylee.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-# Directory
+# Directory 目录配置
 source_dir: source
 public_dir: public
 tag_dir: tags
