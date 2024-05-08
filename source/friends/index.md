@@ -1,6 +1,7 @@
 ---
 menu_id: links
 title: 友链
+date: 2024/05/08/10/07
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 ---
 
