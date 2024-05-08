@@ -42,13 +42,30 @@ type: story # tech/story
 
 
 
-{% quot 2. 待完善 %}
+{% quot 2. 更新时间线 %}
 
-- [ ] **图床**
+{% timeline %}
+
+<!-- node 2024 年 5 月 8 日 -->
+完成图床、静态友链的配置
+
+<!-- node 2024 年 5 月 7 日 -->
+部署成功啦！
+{% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png width:300px %}
+
+{% endtimeline %}
+
+
+
+{% quot 3. 待完善 %}
+
+- [x] **图床**
 
   - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
 
-  - [ ] 不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)
+  - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
+
+  - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
 
 - [ ] **footer 部分的倒计时功能**
 
@@ -60,9 +77,11 @@ type: story # tech/story
 
 - [ ] **友链和关于页面**
 
+  - [ ] ~~尝试动态友链失败，最终还是选择了动态的友链~~
+
 - [ ] **右侧栏公告及索引**
 
-  {% image https://img2.imgtp.com/2024/05/08/3RioD4Kd.png width:200px padding:16px bg:white %}
+  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedrightsides.png width:200px padding:16px bg:white %}
 
 
 - [ ] **RSS 订阅**

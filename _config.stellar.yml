@@ -151,9 +151,9 @@ search:
     path: /search.json # 搜索文件存放位置
     content: true # 是否搜索内容
   algolia_search: # Docsearch https://docsearch.algolia.com/apply/ 申请
-    appId: 
-    apiKey: 
-    indexName: 
+    appId:
+    apiKey:
+    indexName:
 
 
 ######## Comments ########
