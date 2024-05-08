@@ -31,7 +31,9 @@ h1: # 设置为 '' 隐藏标题
 type: story # tech/story
 ---
 
-# 1. Begin
+
+{% quot 1. 起航 %}
+
 
 偶然之下看到 [cayzlh](https://www.cayzlh.com) 的博客，非常简洁，脑子一热决定跟个风，经过一个晚上的折腾，终于成功部署。
 
@@ -40,7 +42,7 @@ type: story # tech/story
 
 
 
-# 2. 待完善
+{% quot 1. 待完善 %}
 
 - [ ] 图床
 
@@ -53,3 +55,12 @@ type: story # tech/story
     ![](../images/footertime.png)
 
 - [ ] 友链和关于页面
+
+- [ ] 右侧栏公告及索引
+
+  {% image ../images/rightsides.png width:200px padding:16px bg:white %}
+
+
+- [ ] RSS 订阅
+
+- [ ]  [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
