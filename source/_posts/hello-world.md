@@ -19,7 +19,7 @@ mermaid:
 katex: 
 mathjax: 
 # 可选
-topic: # 专栏 id
+topic: Blog # 专栏 id
 author: Monty Lee
 references:
 comments: # 设置 false 禁止评论
@@ -42,11 +42,15 @@ type: story # tech/story
 
 
 
-{% quot 1. 待完善 %}
+{% quot 2. 待完善 %}
 
-- [ ] 图床
+- [ ] **图床**
 
-- [ ] footer 部分的倒计时功能
+  - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
+
+  - [ ] 不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)
+
+- [ ] **footer 部分的倒计时功能**
 
   - [x] ~~初步实现功能~~
 
@@ -54,13 +58,24 @@ type: story # tech/story
 
     ![](../images/footertime.png)
 
-- [ ] 友链和关于页面
+- [ ] **友链和关于页面**
 
-- [ ] 右侧栏公告及索引
+- [ ] **右侧栏公告及索引**
 
-  {% image ../images/rightsides.png width:200px padding:16px bg:white %}
+  {% image https://img2.imgtp.com/2024/05/08/3RioD4Kd.png width:200px padding:16px bg:white %}
 
 
-- [ ] RSS 订阅
+- [ ] **RSS 订阅**
 
 - [ ]  [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
+
+
+
+---
+{% quot 引用 %}
+  - [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)
+  - [如何利用 Github 搭建自己的免费图床？](https://zhuanlan.zhihu.com/p/353775844)
+  - [Stellar - 每个人的独立博客](https://xaoxuu.com/wiki/stellar/#start)
+  - ...
+
+---
