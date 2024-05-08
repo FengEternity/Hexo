@@ -42,6 +42,14 @@ type: story # tech/story
 
 # 2. 待完善
 
-1. 图床
-2. footer 部分的倒计时功能
-3. 友链和关于页面
+- [ ] 图床
+
+- [ ] footer 部分的倒计时功能
+
+  - [x] ~~初步实现功能~~
+
+  - [ ] 美化，参见 [cayzlh](https://www.cayzlh.com)  
+
+    ![](../images/footertime.png)
+
+- [ ] 友链和关于页面
