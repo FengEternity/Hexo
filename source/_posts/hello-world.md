@@ -81,11 +81,15 @@ type: story # tech/story
 
 - [ ]  [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
 
+- [ ] 文章页面发布和更新时间有问题
+
+  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
+
 - [x] ~~**图床**~~
 - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
-  
+
 - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
-  
+
 - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
 
 ---
