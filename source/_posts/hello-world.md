@@ -6,13 +6,13 @@ tags: [Blog]
 categories: [Blog]
 description: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界
 # 封面
-cover: 
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 banner: 
 poster: # 海报（可选，全图封面卡片）
-  topic: 标题上方的小字 # 可选
-  headline: 大标题 # 必选
-  caption: 标题下方的小字 # 可选
-  color: 标题颜色 # 可选
+  topic:   # 可选
+  headline: Blog 更新日志暨Hello World # 必选
+  caption: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界 # 可选
+  color: black # 可选
 # 插件
 sticky: # 数字越大越靠前
 mermaid:
@@ -79,6 +79,10 @@ type: story # tech/story
 
 - [ ] **RSS 订阅**
 
+- [ ] 评论插件配置
+
+- [ ] 博客文章密码验证阅读
+
 - [ ]  [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
 
 - [ ] 文章页面发布和更新时间有问题
@@ -86,11 +90,16 @@ type: story # tech/story
   {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
 
 - [x] ~~**图床**~~
-- [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
 
-- [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
 
-- [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
+  - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
+
+  - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
+
+  - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
+
+  - [ ] PicGo 图床插件设置
+
 
 ---
 {% quot 引用 %}
