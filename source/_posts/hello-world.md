@@ -20,7 +20,7 @@ katex:
 mathjax: 
 # 可选
 topic: Blog # 专栏 id
-author: Monty Lee
+author: Montee
 references:
 comments: # 设置 false 禁止评论
 indexing: # 设置 false 避免被搜索
