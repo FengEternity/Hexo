@@ -32,9 +32,6 @@ type: tech # tech/story
 ---
 
 
-
-# 学习记录
-
 ~~（注：本内容仅供个人学习使用，请点击链接阅读原文）~~
 
 # 时间线
@@ -61,18 +58,24 @@ type: tech # tech/story
 
 {% endtimeline %}
 
-
-
-## CMake
-
-学习文章：[CMake学习笔记（一）基本概念介绍、入门教程及CLion安装配置](https://juejin.cn/post/6844904015587704839) 
-
-## 黑马B站教程
-
+# 学习记录
 * [黑马程序员匠心之作|C++教程从0到1入门编程,学习编程不再难](https://www.bilibili.com/video/av41559729/?p=1&vd_source=f30eba35d0a8915376778596dfd73224)
 * [黑马视频配套资料](https://github.com/Blitzer207/C-Resource)
 
 ![image-20240509175137661](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cppheima.png)
+
+## 基础语法入门
+* 学习笔记：[C++基础入门](https://www.montylee.cn/2024/05/13/CPP基础/)
+### CMake
+
+学习文章：[CMake学习笔记（一）基本概念介绍、入门教程及CLion安装配置](https://juejin.cn/post/6844904015587704839) 
+
+## 核心编程
+
+* [内存分区模型](https://juejin.cn/post/7112082561752383496)
+
+## 提高编程
+
 
 
 
