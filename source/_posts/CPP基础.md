@@ -6,8 +6,8 @@ tags: [cpp, 计算机]
 categories: [cpp]
 description: C++ 学习记录，基础语法学习，较为详细介绍指针和结构体的基础语法。
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/CPPBASE.jpeg
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/CPPBASE.jpeg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  C++ 基础 # 必选
