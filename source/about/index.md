@@ -40,7 +40,7 @@ banner : https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 * **计算机视觉**
   * **Python** | **Diffusion Model** | **PyTorch** ｜……
 * **客户端开发**
-  * **C++** ｜……
+  * **C++** ｜**QT**……
 
 
 # 碎碎念
@@ -48,6 +48,12 @@ banner : https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 
 
 {% timeline %}
+
+<!-- node 2024 年 5 月 28 日 -->
+
+来了好几天了，基本上都是在干测试，不过也确实学到了不少东西。
+
+工程性的开发和学校里的小打小闹真的不一样啊。
 
 <!-- node 2024 年 5 月 13 日 -->
 
