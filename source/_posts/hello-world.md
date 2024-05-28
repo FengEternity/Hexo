@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: Blog 更新日志暨Hello World
-date: {{2024/05/07/20/07}}
+date: 2024/05/07/20/07
 tags: [Blog]
 categories: [Blog]
 description: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界
