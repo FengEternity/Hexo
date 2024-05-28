@@ -6,11 +6,11 @@ tags: [cpp, 计算机, leetcode, 秋招, 算法]
 categories: [cpp, 题解]
 description: 代数组part01
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/27.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0-%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95.gif
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/27.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0-%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  代码随想录刷题记录 # 必选
+  headline:  数组part01 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
@@ -37,7 +37,7 @@ type: tech # tech/story
 
 1. 数组是存放在连续内存空间上的相同类型数据的集合。
 
-   ![image-20240522193029336](/Users/montylee/Library/Application Support/typora-user-images/image-20240522193029336.png)
+   ![image-20240522193029336](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240522193029336.png)
 
 * 数组下标都是从0开始的
 
@@ -45,7 +45,7 @@ type: tech # tech/story
 
 2. 二维数组
 
-   ![image-20240522193547234](/Users/montylee/Library/Application Support/typora-user-images/image-20240522193547234.png)
+   ![image-20240522193547234](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240522193547234.png)
 
    不同语言内存管理不同，C++中二维数组是连续分布的，Java 不是。
 
@@ -62,7 +62,7 @@ type: tech # tech/story
 * while (left <= right) 要使用 <= ，因为left == right是有意义的，所以使用 <=
 * if (nums[middle] > target) right 要赋值为 middle - 1，因为当前这个nums[middle]一定不是target，那么接下来要查找的左区间结束下标位置就是 middle - 1
 
-![image-20240524103229994](/Users/montylee/Library/Application Support/typora-user-images/image-20240524103229994.png)
+![image-20240524103229994](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240524103229994.png)
 
 ## 第二种写法
 
@@ -159,7 +159,7 @@ public:
 
 这样的算法在最坏情况下（输入数组中没有元素等 于$val$），左右指针各遍历了数组一次。
 
-![27.移除元素-双指针法](https://code-thinking.cdn.bcebos.com/gifs/27.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0-%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95.gif)
+![27.移除元素-双指针法](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/27.%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0-%E5%8F%8C%E6%8C%87%E9%92%88%E6%B3%95.gif)
 
 
 * 自己写的错误解
