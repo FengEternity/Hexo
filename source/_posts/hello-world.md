@@ -55,10 +55,7 @@ type: story # tech/story
 
 {% endtimeline %}
 
-* 主题版本更新时间线
 
-{% timeline api:https://api.github.com/repos/xaoxuu/hexo-theme-stellar/releases?per_page=1 %}
-{% endtimeline %}
 
 {% quot 3. 待完善 %}
 
