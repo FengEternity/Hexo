@@ -49,3 +49,4 @@ type: tech # tech/story
 >   * 具体介绍了 SVN 相关的知识，重点在于命令行相关的操作
 >   * 缺少 TortoiseSVN 的详细使用教程
 > * [TortoiseSVN 使用教程](https://www.cnblogs.com/DreamingFishZIHao/p/12982944.html)
+> * [TortoiseSVN 使用教程2](https://tortoisesvn.net/docs/release/TortoiseSVN_zh_CN/tsvn-preface-readingguide.html)
