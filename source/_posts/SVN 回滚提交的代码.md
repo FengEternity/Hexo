@@ -44,6 +44,8 @@ type: tech # tech/story
 
 # 学习文档
 
-没想好起什么名字，实际上是我在解决这个问题时，查找阅读的相关文章。
-
 > * [SVN 回滚（撤回）提交的代码](https://blog.csdn.net/k358971707/article/details/78519179)
+> * [SVN 菜鸟教程](https://www.runoob.com/svn/svn-tutorial.html)
+>   * 具体介绍了 SVN 相关的知识，重点在于命令行相关的操作
+>   * 缺少 TortoiseSVN 的详细使用教程
+> * [TortoiseSVN 使用教程](https://www.cnblogs.com/DreamingFishZIHao/p/12982944.html)
