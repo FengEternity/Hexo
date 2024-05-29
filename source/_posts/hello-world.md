@@ -12,7 +12,7 @@ poster: # 海报（可选，全图封面卡片）
   topic:   # 可选
   headline: Blog 更新日志暨Hello World # 必选
   caption: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界 # 可选
-  color: black # 可选
+  color: # 可选
 # 插件
 sticky: # 数字越大越靠前
 mermaid:
