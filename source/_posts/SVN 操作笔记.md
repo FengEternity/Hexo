@@ -1,16 +1,16 @@
 ---
 # 基本信息
-title: SVN 回滚提交的代码
+title: SVN 使用笔记
 date: 2024/05/29/14/19
-tags: [计算机, debug]
-categories: [debug]
-description: SVN 回滚提交的代码
+tags: [计算机, SVN]
+categories: [SVN]
+description: SVN 使用笔记
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/SouthEast.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/SouthEast.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images.png
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images.png
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  SVN 回滚提交的代码 # 必选
+  headline:  SVN 使用笔记 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
@@ -31,16 +31,22 @@ h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 ---
 
+# 前言
+此文档仅供个人在实际操作中记录使用，如需详细学习请至 **学习文档** 部分
 
-
-# 操作步骤
-
+# 回滚代码
 1. TortoiseSVN -> Show log.
 2. 右键点击你想撤回的**提交**-> Revert changes from this revision.
 3. 右键点击你想撤回**提交**的前一个**提交**-> Revert to this version.
 4. 将你的**代码**修改正确之后-> 重新**SVN** Commit.
 
 
+
+# 解决冲突（svn conflict ）
+
+1. svn update ：查看是否存在冲突（即源代码中其他人修改的，是否和本地不同）
+2. svn conflict ：解决冲突
+3. 最后点击 resolve
 
 # 学习文档
 
