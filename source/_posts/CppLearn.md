@@ -58,6 +58,10 @@ type: tech # tech/story
 
 {% endtimeline %}
 
+# 问题记录
+
+- [ ] 【20240531】对指针相关概念和操作不熟悉
+
 # 学习记录
 * [黑马程序员匠心之作|C++教程从0到1入门编程,学习编程不再难](https://www.bilibili.com/video/av41559729/?p=1&vd_source=f30eba35d0a8915376778596dfd73224)
 * [黑马视频配套资料](https://github.com/Blitzer207/C-Resource)
