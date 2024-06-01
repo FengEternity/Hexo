@@ -6,11 +6,11 @@ tags: [cpp, QT]
 categories: [cpp, QT]
 description: QT 学习记录
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200806194529815.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200806194529815.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images-20240601115516721.png
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images-20240601115516721.png
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  代码随想录刷题记录 # 必选
+  headline:  QT 学习记录 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
@@ -41,8 +41,21 @@ type: tech # tech/story
 
 {% endtimeline %}
 
-# DAY1
+# 0531【01-05】
 
 1. QT 简介、历史、优点**（跨平台、接口简单、一定程度上简化了内存回收）**、版本、成功案例
 2. 创建第一个QT程序 ([MacOS配置Clion的Qt环境的详细步骤（完整版）](https://blog.csdn.net/weixin_45571585/article/details/127074832))
    1. QT Creator 配置了半天也没成功，决定还是使用 CLion 了
+
+# 0601【06-】
+
+1. 创建一个按钮，设置按钮大小
+2. 固定窗口大小 `setFixesSize();`
+
+## 对象树
+
+* 父类释放内存，子类也自动释放
+* 构造自上而下，析构自下而上
+
+![IMG_5985](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/IMG_5985.jpg)
+
