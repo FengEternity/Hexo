@@ -6,8 +6,8 @@ tags: [cpp, 计算机]
 categories: [cpp]
 description: C++ 学习记录
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/cpp.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/wallhaven-1ppld1.jpg
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/wallhaven-1ppld1.jpg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  C++ 学习 # 必选

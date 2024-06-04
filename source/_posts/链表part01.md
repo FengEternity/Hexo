@@ -6,8 +6,8 @@ tags: [cpp, 计算机, leetcode, 秋招, 算法]
 categories: [cpp, 题解]
 description: 链表part01
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/1_2.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/1_2.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image.jpeg
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image.jpeg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  链表part01 # 必选

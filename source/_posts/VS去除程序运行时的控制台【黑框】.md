@@ -6,8 +6,8 @@ tags: [cpp, 计算机, debug]
 categories: [debug, cpp]
 description: VS 去除程序运行时的控制台
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/watermark%2Ctype_d3F5LXplbmhlaQ%2Cshadow_50%2Ctext_Q1NETiBA6Zu36Zi15aSq6Ziz%2Csize_20%2Ccolor_FFFFFF%2Ct_70%2Cg_se%2Cx_16.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/watermark%2Ctype_d3F5LXplbmhlaQ%2Cshadow_50%2Ctext_Q1NETiBA6Zu36Zi15aSq6Ziz%2Csize_20%2Ccolor_FFFFFF%2Ct_70%2Cg_se%2Cx_16.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  VS 去除程序运行时的控制台 # 必选

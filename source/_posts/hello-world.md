@@ -6,7 +6,7 @@ tags: [Blog]
 categories: [Blog]
 description: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/thumbbig-1313894.webp
 banner: 
 poster: # 海报（可选，全图封面卡片）
   topic:   # 可选

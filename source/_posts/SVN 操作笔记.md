@@ -6,8 +6,8 @@ tags: [计算机, SVN]
 categories: [SVN]
 description: SVN 使用笔记
 # 封面
-cover: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.devopsschool.com%2Fblog%2Fwhat-is-svn-and-use-cases-of-svn%2F&psig=AOvVaw2vHr7JB17G_6SSeBuju0Wy&ust=1717570188975000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjUrtmtwYYDFQAAAAAdAAAAABAJ
-banner: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.devopsschool.com%2Fblog%2Fwhat-is-svn-and-use-cases-of-svn%2F&psig=AOvVaw2vHr7JB17G_6SSeBuju0Wy&ust=1717570188975000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjUrtmtwYYDFQAAAAAdAAAAABAJ
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
+banner:https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  SVN 使用笔记 # 必选
