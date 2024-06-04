@@ -6,8 +6,8 @@ tags: [cpp, 计算机, leetcode, 秋招, 算法]
 categories: [cpp, 题解]
 description: 代数组part01
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images.jpeg
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images.jpeg
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/407EA04208948845D522AAA07D1BB3F1.png
+banner: hhttps://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/407EA04208948845D522AAA07D1BB3F1.png
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  数组part01 # 必选
