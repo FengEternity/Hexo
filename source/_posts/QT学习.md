@@ -6,8 +6,8 @@ tags: [cpp, QT]
 categories: [cpp, QT]
 description: QT 学习记录
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images-20240601115516721.png
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/images-20240601115516721.png
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  QT 学习记录 # 必选
@@ -204,6 +204,9 @@ MainWindow::~MainWindow()
 1. Qt Creator 中 UI 设计的使用
 2. Qt Resource File
 
+# 0604【20-】
 
+## 模态和非模态对话框的实现
 
-9711
+* 模态对话框：
+* 非模态对话框：
