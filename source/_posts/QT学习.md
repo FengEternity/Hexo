@@ -121,11 +121,89 @@ connect(信号的发送者，信号发送端，信号接收者，信号的处理
 
 
 
+# 0602【16】
+
+复习之前所学的内容
+
+# 0603【17-19】
+
+## QMainWindow
+
+![image-20240603102947005](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240603102947005.png)
+
+* 菜单栏（Menu Bar）、工具栏(Tool Bar Area) 、状态栏、浮动窗口、中心部件的创建与相关设置
+
+```cpp
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+#include <QMenuBar>
+#include <QToolBar>
+#include <QStatusBar>
+#include <QLabel>
+#include <QDockWidget>
+#include <QTextEdit>
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+    resize(600,400);
+
+    // 菜单栏只能有一个
+    // 创建菜单栏
+    QMenuBar *bar =  menuBar();
+    setMenuBar(bar);
+
+    // 创建菜单
+    QMenu *fileMeanu =  bar->addMenu("File");
+    QMenu *editMeanu =  bar->addMenu("Edit");
+
+    // 创建菜单项
+    QAction *newAction = fileMeanu->addAction("New");
+    fileMeanu->addSeparator();
+    QAction *openAction = fileMeanu->addAction("Open");
+
+    // 工具栏 可以有多个
+    QToolBar *toolbar = new QToolBar(this);
+    addToolBar(Qt::LeftToolBarArea, toolbar);
+
+    toolbar->addAction("Debug");
+    toolbar->addSeparator();
+    toolbar->addAction("More");
+
+    // toolbar->addAction(newAction);
+    // 状态栏
+    QStatusBar *staBar = statusBar();
+    setStatusBar(staBar);
+    QLabel *label = new QLabel("Montee", this);
+    staBar->addPermanentWidget(label);
+
+
+    // 浮动窗口
+    QDockWidget *dockWidget = new QDockWidget("fudong", this);
+    addDockWidget(dockWidget);
+
+    // 中心部件
+    QTextEdit *edit = new QTextEdit(this);
+    setCentralWidget(edit);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+```
+
+效果如图：
+
+![image-20240603144423162](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240603144423162.png)
+
+## 资源文件添加
+
+1. Qt Creator 中 UI 设计的使用
+2. Qt Resource File
 
 
 
-
-
-
-
-
+9711
