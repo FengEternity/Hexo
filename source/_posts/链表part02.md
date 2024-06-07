@@ -16,7 +16,7 @@ poster:  # 海报（可选，全图封面卡片）
 # 插件
 sticky: # 数字越大越靠前
 mermaid:
-katex: 
+katex: true
 mathjax: 
 # 可选
 topic: 计算机 # 专栏 id
@@ -71,12 +71,12 @@ type: tech # tech/story
 
 ### 个人思路
 
-两次循环
+两次循环，显然时间复杂度为 $O(n^2)$
 
 1. 第一层循环用于确定链表的长度
 2. 第二次循环用于找到倒数第 N 个结点
 
-代码入戏，
+代码如下，
 
 ```cpp
 class Solution {
