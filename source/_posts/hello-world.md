@@ -14,7 +14,7 @@ poster: # 海报（可选，全图封面卡片）
   caption: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界 # 可选
   color: # 可选
 # 插件
-sticky: # 数字越大越靠前
+sticky: tagcloud # 数字越大越靠前
 mermaid:
 katex: true
 mathjax: 

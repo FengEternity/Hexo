@@ -87,3 +87,8 @@ type: tech # tech/story
 * [这才是你最想要的 C++ 学习路线](https://www.zhihu.com/tardis/zm/art/435927070?source_id=1003)
 * [C++那些事](https://github.com/Light-City/CPlusPlusThings?tab=readme-ov-file#c-那些事)
 * [CMake学习笔记（一）基本概念介绍、入门教程及CLion安装配置](https://juejin.cn/post/6844904015587704839)
+
+footer:
+  content: |
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
