@@ -46,6 +46,9 @@ type: story # tech/story
 
 {% timeline %}
 
+<!-- node 2024 年 6 月 7 日 -->
+评论功能设置成功
+
 <!-- node 2024 年 5 月 8 日 -->
 完成图床、静态友链的配置
 
@@ -58,10 +61,6 @@ type: story # tech/story
 
 
 {% quot 3. 待完善 %}
-
-- [ ] **友链和关于页面**
-
-  - [x] ~~尝试动态友链失败，最终还是选择了静态的友链~~
 
 - [ ] **footer 部分的倒计时功能**
 
@@ -78,27 +77,43 @@ type: story # tech/story
 
 
 - [ ] **RSS 订阅**
-
-- [ ] 评论插件配置
-
 - [ ] 博客文章密码验证阅读
+- [ ] [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
 
-- [ ]  [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
+{% quot 4. 已完成 %}
 
-- [ ] 文章页面发布和更新时间有问题
-
-  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
 
 - [x] ~~**图床**~~
 
 
-  - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
+    - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
 
-  - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
 
-  - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
 
-  - [ ] PicGo 图床插件设置
+    - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
+
+
+
+    - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
+
+
+
+    - [x] PicGo 图床插件设置
+
+- [x] **友链和关于页面**
+
+  - [x] ~~尝试动态友链失败，最终还是选择了静态的友链~~
+
+- [x] 评论插件配置
+
+
+  - [x] 使用 [giscus](https://giscus.app/zh-CN) 作为评论系统
+
+- [x] 文章页面发布和更新时间有问题
+
+  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
+
+  发现是写文章时填写时间有误，只能写年/月/日
 
 
 ---
