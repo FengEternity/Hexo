@@ -10,7 +10,7 @@ cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/nezuko-kamado-k
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/nezuko-kamado-kimetsu-no-yaiba-hd-wallpaper-x-preview-27.jpg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  链表part01 # 必选
+  headline:  哈希表part01 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件

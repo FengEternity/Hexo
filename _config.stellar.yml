@@ -263,6 +263,10 @@ footer:
     github:
       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
       url: https://github.com/FengEternity
+    love:
+      icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
+      url: https://fengeternity.github.io/love/index.html
+
     # music:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
     #   url: /
@@ -272,6 +276,7 @@ footer:
     # comments:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/942ebbf1a4b91.svg"/>'
     #   url: /about/#comments
+    
     theme:
       icon: default:theme
       onclick: https://www.montylee.cc
