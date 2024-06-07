@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: 数组part01
-date: 2024/05/28/17/52
+date: 2024/05/28
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
 categories: [cpp, 题解]
 description: 代数组part01

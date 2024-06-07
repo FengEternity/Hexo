@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: SVN 使用笔记
-date: 2024/05/29/14/19
+date: 2024/05/29
 tags: [计算机, SVN]
 categories: [SVN]
 description: SVN 使用笔记

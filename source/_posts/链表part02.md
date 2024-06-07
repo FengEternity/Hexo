@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: 链表part02
-date: 2024/05/31/14/54
+date: 2024/05/31
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
 categories: [cpp, 题解]
 description: 链表part02

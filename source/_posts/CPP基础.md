@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: C++ 基础
-date: 2024/05/13/14/07
+date: 2024/05/13
 tags: [cpp, 计算机]
 categories: [cpp]
 description: C++ 学习记录，基础语法学习，较为详细介绍指针和结构体的基础语法。

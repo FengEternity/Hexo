@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: QT 学习记录
-date: 2024/05/31/19/08
+date: 2024/05/31
 tags: [cpp, QT]
 categories: [cpp, QT]
 description: QT 学习记录
@@ -204,9 +204,13 @@ MainWindow::~MainWindow()
 1. Qt Creator 中 UI 设计的使用
 2. Qt Resource File
 
-# 0604【20-】
+# 0605【20-】
 
 ## 模态和非模态对话框的实现
 
 * 模态对话框：
 * 非模态对话框：
+
+
+
+9712 3876

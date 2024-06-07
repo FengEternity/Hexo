@@ -1,7 +1,7 @@
 ---
 # 基本信息
 title: C++ 学习
-date: 2024/05/09/15/44
+date: 2024/05/09
 tags: [cpp, 计算机]
 categories: [cpp]
 description: C++ 学习记录
