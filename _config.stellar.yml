@@ -281,22 +281,21 @@ footer:
       icon: default:theme
       onclick: https://www.montylee.cc
   sitemap:
-    # '博客':
-    #   - '[近期](/)'
-    #   - '[分类](/)'
-    #   - '[标签](/)'
-    #   - '[归档](/)'
-    # '项目':
-    #   - '[开源库](/)'
-    # '社交':
-    #   - '[友链](/)'
-    #   - '[留言板](/)'
-    # '更多':
-    #   - '[关于本站](/)'
-    #   - '[GitHub](/)'
+    '博客':
+      - '[近期](/)'
+      - '[分类](https://www.montylee.cn/categories)'
+      - '[标签](https://www.montylee.cn/tags)'
+      - '[归档](https://www.montylee.cn/archives)'
+    '项目':
+      - '[开源库](/)'
+    '社交':
+      - '[友链](https://www.montylee.cn/friends/)'
+      - '[留言板](/)'
+    '更多':
+      - '[关于本站](https://www.montylee.cn/about/)'
+      - '[GitHub](https://github.com/FengEternity)'
   content: |
-    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    © 2024 Montee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
 
 
 ######## Tag Plugins ########
