@@ -52,7 +52,7 @@ type: tech # tech/story
 
 <!-- node 2024 年 5 月 9 日 -->
 
-中海达面试结束，面试官说实习过程中主要是用 CPP 进行开发，于是决定利用这几天补习相关知识。
+中海达面试结束，面试官说实习过程中主要是用 C++ 进行开发，于是决定利用这几天补习相关知识。
 
 {% endtimeline %}
 
@@ -87,4 +87,6 @@ type: tech # tech/story
 * [这才是你最想要的 C++ 学习路线](https://www.zhihu.com/tardis/zm/art/435927070?source_id=1003)
 * [C++那些事](https://github.com/Light-City/CPlusPlusThings?tab=readme-ov-file#c-那些事)
 * [CMake学习笔记（一）基本概念介绍、入门教程及CLion安装配置](https://juejin.cn/post/6844904015587704839)
+
+
 
