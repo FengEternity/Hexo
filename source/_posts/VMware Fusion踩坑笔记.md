@@ -4,7 +4,7 @@ title: VMware Fusion 踩坑笔记（M1 Pro）
 date: 2024/06/17
 tags: [计算机, debug]
 categories: [虚拟机]
-description: VS 去除程序运行时的控制台
+description: VMware Fusion 踩坑笔记（M1 Pro）
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
