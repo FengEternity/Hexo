@@ -3,7 +3,7 @@
 title: SVN 使用笔记
 date: 2024/05/29
 tags: [计算机, SVN]
-categories: [SVN]
+categories: [版本控制工具]
 description: SVN 使用笔记
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
