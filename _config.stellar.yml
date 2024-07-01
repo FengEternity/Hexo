@@ -296,6 +296,11 @@ footer:
       - '[GitHub](https://github.com/FengEternity)'
   content: |
     © 2024 Montee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
+      <div align="center">
+      ![Static Badge](https://img.shields.io/badge/BLOG-Mentee-red?style=social&link=https%3A%2F%2Fwww.montylee.cn)
+      </div>
+
+
 
 
 ######## Tag Plugins ########
