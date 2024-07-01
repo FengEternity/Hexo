@@ -30,6 +30,31 @@ banner : https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 * In this paper, we propose a more efficient CLIP prompt tuning method, achieving better performance and faster convergence in downstream tasks using large-scale pre-trained visual language models. Experimental results on 11 datasets demonstrate the superiority of our approach.
 * 论文中提出了一种更高效的CLIP prompt tuning方法，利用大规模预训练的视觉语言模型在下游任务中取得了更好的性能和更快的收敛。在11个数据集上的实验证明了该方法的优越性。
 
+# 项目
+## SAST Evento Desktop
+
+## 实时视频监控系统
+
+开发了一个基于C++、Qt和OpenCV的视频监控系统，实现了实时视频捕获、显示和处理功能。该系统能够从摄像头获取视频流，并在GUI界面中实时显示。
+
+**主要职责：**
+- 设计并实现了视频捕获模块，使用OpenCV库进行视频流的获取和处理。
+- 使用Qt框架开发了用户界面，包括视频显示窗口和控制按钮。
+- 采用多线程技术，实现视频捕获和显示的并行处理，保证系统的实时性。
+- 编写CMake脚本，配置项目的构建和依赖管理。
+- 使用Git进行版本控制，确保代码的稳定性和可维护性。
+
+**项目特点：**
+- **实时性**：通过多线程技术，实现了视频捕获和处理的实时性。
+- **跨平台**：使用C++和Qt框架，保证了系统的跨平台兼容性。
+- **模块化设计**：将视频捕获、处理和显示功能模块化，提升了代码的可读性和维护性。
+
+**技术栈：**
+- **编程语言**：C++
+- **框架和库**：Qt6、OpenCV
+- **构建工具**：CMake
+- **版本控制**：Git
+- **开发工具**：Qt Creator、CLion
 
 
 
