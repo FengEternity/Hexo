@@ -38,9 +38,9 @@ banner : https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 本科阶段，遵循个人兴趣主要学习了计算机视觉相关的内容，受就业形势所迫及实习岗位影响，开始入坑客户端和C++。
 
 * **计算机视觉**
-  * **Python** | **Diffusion Model** | **PyTorch** ｜……
+  * **Python** | **Diffusion Model** | **PyTorch** ｜**OpenCV**……
 * **客户端开发**
-  * **C++** ｜**QT**……
+  * **C++** ｜**QT**｜ ……
 
 
 # 碎碎念
@@ -48,6 +48,11 @@ banner : https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 
 
 {% timeline %}
+
+<!-- node 2024 年 7 月 2 日 -->
+
+最近接了好多人的期末作业，对于个人技术没什么提升，后面要学会记录项目中遇到的问题；
+不过也有点收获的，熟悉了 git 的相关操作。
 
 <!-- node 2024 年 5 月 28 日 -->
 
