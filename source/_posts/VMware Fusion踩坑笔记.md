@@ -34,6 +34,8 @@ type: tech # tech/story
 
 > 一个好用的 Mac 软件下载库：https://www.macat.vip
 
+> 2024/7/2，放弃VM了，改用Parallels Desktop
+
 # 1. 在设置里给虚拟机分配了内存，但是虚拟机运行起来依然没有
 
 先简单介绍一下我的环境：
