@@ -48,6 +48,34 @@ type: tech # tech/story
 
    ![img](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/watermark%2Ctype_d3F5LXplbmhlaQ%2Cshadow_50%2Ctext_Q1NETiBA6Zu36Zi15aSq6Ziz%2Csize_20%2Ccolor_FFFFFF%2Ct_70%2Cg_se%2Cx_16.png) 
 
+
+
+如果你需要在 GUI 应用程序中显示控制台窗口，可以在代码中显式创建控制台窗口。
+
+```c++
+#include <windows.h>
+
+void createConsole() {
+    AllocConsole();
+    freopen("CONOUT$", "w", stdout);
+    freopen("CONOUT$", "w", stderr);
+    freopen("CONIN$", "r", stdin);
+}
+
+int main(int argc, char *argv[]) {
+    QApplication a(argc, argv);
+
+    createConsole();  // 创建控制台窗口
+
+    MainWindow w;
+    w.show();
+    return a.exec();
+}
+
+```
+
+
+
 # 学习文档
 
 没想好起什么名字，实际上是我在解决这个问题时，查找阅读的相关文章。
