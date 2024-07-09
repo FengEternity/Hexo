@@ -35,6 +35,10 @@ type: tech # tech/story
 
 {% timeline %}
 
+<!-- node 2024 年 7 月 9 日 -->
+
+重新开始系统学习，基于《Qt6 C++ 开发指南》
+
 <!-- node 2024 年 6 月 1 日 -->
 
 1. 开始学习。
@@ -45,26 +49,28 @@ type: tech # tech/story
 
 {% endtimeline %}
 
-# 0531【01-05】
+# 第一阶段
+
+## 0531【01-05】
 
 1. QT 简介、历史、优点**（跨平台、接口简单、一定程度上简化了内存回收）**、版本、成功案例
 2. 创建第一个QT程序 ([MacOS配置Clion的Qt环境的详细步骤（完整版）](https://blog.csdn.net/weixin_45571585/article/details/127074832))
    1. QT Creator 配置了半天也没成功，决定还是使用 CLion 了
 
-# 0601【06-15】
+## 0601【06-15】
 
 1. 创建一个按钮，设置按钮大小
 2. 固定窗口大小 `setFixesSize();`
 3. QT 的窗口坐标系，左上角为(0, 0)
 
-## 对象树
+### 对象树
 
 * 父类释放内存，子类也自动释放（一定程度上简化了内存管理）
 * 构造自上而下，析构自下而上
 
 ![IMG_5985](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/IMG_5985.jpg)
 
-## 信号和槽
+### 信号和槽
 
 优点：松散耦合，信号的发送端和接收端本身并没有关联，通过 connect 连接，将两端耦合在一起。
 
@@ -83,7 +89,7 @@ connect(信号的发送者，信号发送端，信号接收者，信号的处理
 
 
 
-### 自定义信号与槽
+#### 自定义信号与槽
 
 1. 自定义信号：
    * 返回为 void
@@ -98,7 +104,7 @@ connect(信号的发送者，信号发送端，信号接收者，信号的处理
 
 
 
-## lambda表达式
+### lambda表达式
 
 ~~有点复杂，听不懂~~
 
@@ -121,13 +127,13 @@ connect(信号的发送者，信号发送端，信号接收者，信号的处理
 
 
 
-# 0602【16】
+## 0602【16】
 
 复习之前所学的内容
 
-# 0603【17-19】
+## 0603【17-19】
 
-## QMainWindow
+### QMainWindow
 
 ![image-20240603102947005](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240603102947005.png)
 
@@ -199,18 +205,21 @@ MainWindow::~MainWindow()
 
 ![image-20240603144423162](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240603144423162.png)
 
-## 资源文件添加
+### 资源文件添加
 
 1. Qt Creator 中 UI 设计的使用
 2. Qt Resource File
 
-# 0605【20-】
+## 0605【20-】
 
-## 模态和非模态对话框的实现
+### 模态和非模态对话框的实现
 
 * 模态对话框：
 * 非模态对话框：
 
 
+# 第二阶段
 
-9712 3876
+[《Qt6 C++开发指南 》2023（上册，完整版）]([1.1Qt简介_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1km4y1k7CW/?p=2&spm_id_from=pageDriver&vd_source=f30eba35d0a8915376778596dfd73224))
+
+![image-20240709160335481](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240709160335481.png)
