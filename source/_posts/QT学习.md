@@ -222,4 +222,20 @@ MainWindow::~MainWindow()
 
 [《Qt6 C++开发指南 》2023（上册，完整版）]([1.1Qt简介_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1km4y1k7CW/?p=2&spm_id_from=pageDriver&vd_source=f30eba35d0a8915376778596dfd73224))
 
+## Qt6 新特性
+
 ![image-20240709160335481](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240709160335481.png)
+
+## GUI程序设计基础
+
+![image-20240709162000259](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240709162000259.png)
+
+## qmake
+
+![image-20240709162406149](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240709162406149.png)
+
+* qmake是构建项目的软件，它根据.pro文件生成Makefile文件，然后c++编译器可以根据Makefile文件进行编译和链接
+* qmake还会自动生成MOC （meta-object compiler）和UIC（user interface compiler）生成构建规则
+* $$为替换函数的前缀
+
+ 
