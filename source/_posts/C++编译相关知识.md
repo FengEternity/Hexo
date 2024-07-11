@@ -1,16 +1,16 @@
 ---
 # 基本信息
-title: C++编译相关知识2
+title: C++ 核心编程
 date: 2024/07/11
 tags: [cpp, 计算机]
 categories: [cpp]
-description: C++编译相关知识
+description: C++ 核心编程
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  C++编译相关知识 # 必选
+  headline:  C++ 核心编程 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
