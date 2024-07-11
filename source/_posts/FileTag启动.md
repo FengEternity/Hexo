@@ -33,6 +33,14 @@ type: story # tech/story
 
 > 本篇博客大部分内容由 ChatGPT 生成！
 
+{% timeline %}
+
+<!-- node 2024 年 7 月 10 日 -->
+
+实现最最基本的打标签功能。
+
+{% endtimeline %}
+
 欢迎来到 FileTag 项目的诞生记录！FileTag 是一个用于为文件添加标签的工具，通过这个工具，您可以轻松地为文件添加标签，并将这些标签存储在 CSV 文件中。
 
 ## 开发动机
