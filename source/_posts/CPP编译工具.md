@@ -6,8 +6,8 @@ tags: [cpp, 计算机]
 categories: [cpp]
 description: C++编译相关知识
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220629231150_51a75.gif
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220629231150_51a75.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  C++编译相关知识 # 必选
