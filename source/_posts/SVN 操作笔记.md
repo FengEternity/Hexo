@@ -7,7 +7,7 @@ categories: [版本控制工具]
 description: SVN 使用笔记
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
-banner:https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  SVN 使用笔记 # 必选
@@ -44,9 +44,58 @@ type: tech # tech/story
 
 # 解决冲突（svn conflict ）
 
-1. svn update ：查看是否存在冲突（即源代码中其他人修改的，是否和本地不同）
-2. svn conflict ：解决冲突
-3. 最后点击 resolve
+更为详细的教程请参考：[解决冲突](https://tortoisesvn.net/docs/release/TortoiseSVN_zh_CN/tsvn-dug-conflicts.html)
+
+## svn update ：
+查看是否存在冲突（即两个人对同一个地方作出修改，导致从仓库拉取代码时，不一致产生冲突）
+
+文件中冲突区域示例如下，
+
+```bash
+<<<<<<< filename
+your changes
+=======
+code merged from repository
+>>>>>>> revision
+```
+
+## svn conflict ：解决冲突
+
+1. **理解冲突标记**：
+    
+    - `<<<<<<< filename`：这部分标记了你当前分支的内容（即“your changes”）。
+    - `=======`：这部分是分隔符，分隔了冲突的两个版本。
+    - `>>>>>>> revision`：这部分标记了你尝试合并进来的分支的内容（即“code merged from repository”）。
+    
+2. **分析冲突内容**：
+    - 你的版本：`your changes`
+    - 合并进来的版本：`code merged from repository`
+
+3. **决定保留哪部分内容**：
+    - 你需要决定保留哪部分内容，可以是你的更改、合并进来的更改，或者是两者的结合。
+
+4. **编辑文件以解决冲突**：
+    - 删除冲突标记，并保留你决定要的内容。例如：
+        - 如果你决定保留你的更改，可以将代码修改为：
+
+        ```plaintext
+        your changes
+        ```
+
+        - 如果你决定保留合并进来的更改，可以将代码修改为：
+
+        ```plaintext
+        code merged from repository
+        ```
+
+        - 如果你决定结合两者的更改，可以将代码修改为：
+
+        ```plaintext
+        your changes
+        code merged from repository
+        ```
+
+## 最后点击 resolve
 
 # 学习文档
 
