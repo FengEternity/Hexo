@@ -1,10 +1,10 @@
 ---
 # 基本信息
-title: C++ 编译相关知识
+title: C++编译相关知识
 date: 2024/07/11
 tags: [cpp, 计算机]
 categories: [cpp]
-description: C++ 编译相关知识
+description: C++编译相关知识
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
