@@ -10,7 +10,7 @@ cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  C++ 编译相关知识 # 必选
+  headline:  C++编译相关知识 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
