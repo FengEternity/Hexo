@@ -53,13 +53,9 @@ void MainWindow::onFileSearchClicked() {
 }
 
 ```
-{% gallery %}
-
 ![image-20240717113114410](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240717113114410.png)
 
 ![image-20240717113132255](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240717113132255.png)
-
-{% endgallery %}
 
 
 
