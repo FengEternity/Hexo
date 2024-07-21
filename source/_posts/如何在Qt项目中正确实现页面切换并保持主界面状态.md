@@ -1,34 +1,35 @@
 ---
-# 基本信息
 title: 如何在Qt项目中正确实现页面切换并保持主界面状态
 date: 2024/07/21
-tags: [cpp, 计算机, debug]
-categories: [debug, cpp]
+tags:
+  - cpp
+  - 计算机
+  - debug
+categories:
+  - debug
+  - cpp
 description: 如何在Qt项目中正确实现页面切换并保持主界面状态
-# 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/bc9d1a2b4219f9c23dde4bc39fe3fbd8f6a4b13d_2_1380x776.jpeg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/bc9d1a2b4219f9c23dde4bc39fe3fbd8f6a4b13d_2_1380x776.jpeg
-poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
-  headline:  如何在Qt项目中正确实现页面切换并保持主界面状态 # 必选
-  caption:  # 可选
-  color:  # 可选
-# 插件
-sticky: # 数字越大越靠前
-mermaid:
+poster:
+  topic: 
+  headline: 如何在Qt项目中正确实现页面切换并保持主界面状态
+  caption: 
+  color: 
+sticky: 
+mermaid: 
 katex: true
-mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
+mathjax: true
+topic: 计算机
 author: Montee
-references:
-comments: # 设置 false 禁止评论
-indexing: # 设置 false 避免被搜索
-breadcrumb: # 设置 false 隐藏面包屑导航
+references: 
+comments: 
+indexing: 
+breadcrumb: 
 leftbar: 
-rightbar:
-h1: # 设置为 '' 隐藏标题
-type: tech # tech/story
+rightbar: 
+h1: 
+type: tech
 ---
 # 问题描述
 ![image.png](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20240721181505.png)
