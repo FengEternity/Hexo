@@ -1,6 +1,6 @@
 ---
 title: 哈希表part01
-date: 2024/06/06
+date: 2024/08/02
 tags:
   - cpp
   - 计算机
@@ -153,6 +153,237 @@ public:
 }
 ```
 
-# 349. 两个数组的交集
+# 349. 两个数组的交集【简单】
+
+代码如下：
+
+```C
+class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        unordered_set<int> result_set;
+        unordered_set<int> nums1_set(nums1.begin(), nums1.end());
+
+        for(int num : nums2) {
+            if(nums1_set.find(num) != nums1_set.end()) {
+                result_set.insert(num);
+            }
+        }
+
+        return vector<int>(result_set.begin(), result_set.end());
+    }
+};
+
+```
 
 
+我觉得个人要从这里学的大致是以下几点：
+
+## set 相关知识
+
+###  `std::set`
+
+#### 特点
+
+- **唯一性**：`std::set` 中的元素是唯一的，不允许重复。
+- **有序**：元素会按照特定的顺序（通常是升序）存储。
+- **底层实现**：通常使用红黑树实现。
+
+#### 用法
+
+cpp
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main() {
+    std::set<int> mySet;
+
+    // 插入元素
+    mySet.insert(5);
+    mySet.insert(3);
+    mySet.insert(8);
+    mySet.insert(5); // 插入重复元素，失败
+
+    // 遍历元素
+    for (const auto& elem : mySet) {
+        std::cout << elem << " "; // 输出: 3 5 8
+    }
+    std::cout << std::endl;
+
+    // 查找元素
+    if (mySet.find(3) != mySet.end()) {
+        std::cout << "Found 3!" << std::endl;
+    }
+
+    // 删除元素
+    mySet.erase(5);
+
+    return 0;
+}
+```
+
+### 2. `std::multiset`
+
+#### 特点
+
+- **允许重复**：`std::multiset` 中的元素可以重复。
+- **有序**：元素会按照特定的顺序存储。
+- **底层实现**：同样使用红黑树实现。
+
+#### 用法
+
+cpp
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main() {
+    std::multiset<int> myMultiSet;
+
+    // 插入元素
+    myMultiSet.insert(5);
+    myMultiSet.insert(3);
+    myMultiSet.insert(8);
+    myMultiSet.insert(5); // 插入重复元素，成功
+
+    // 遍历元素
+    for (const auto& elem : myMultiSet) {
+        std::cout << elem << " "; // 输出: 3 5 5 8
+    }
+    std::cout << std::endl;
+
+    // 查找元素
+    auto range = myMultiSet.equal_range(5);
+    std::cout << "Count of 5: " << std::distance(range.first, range.second) << std::endl; // 输出: 2
+
+    // 删除元素
+    myMultiSet.erase(5); // 删除一个5
+
+    return 0;
+}
+```
+
+### 3. `std::unordered_set`
+
+#### 特点
+
+- **唯一性**：与 `std::set` 一样，`std::unordered_set` 中的元素是唯一的。
+- **无序**：元素的存储顺序是不确定的，可能会根据哈希函数的实现而变化。
+- **底层实现**：使用哈希表实现。
+
+#### 用法
+
+cpp
+
+```cpp
+#include <iostream>
+#include <unordered_set>
+
+int main() {
+    std::unordered_set<int> myUnorderedSet;
+
+    // 插入元素
+    myUnorderedSet.insert(5);
+    myUnorderedSet.insert(3);
+    myUnorderedSet.insert(8);
+    myUnorderedSet.insert(5); // 插入重复元素，失败
+
+    // 遍历元素
+    for (const auto& elem : myUnorderedSet) {
+        std::cout << elem << " "; // 输出顺序不确定
+    }
+    std::cout << std::endl;
+
+    // 查找元素
+    if (myUnorderedSet.find(3) != myUnorderedSet.end()) {
+        std::cout << "Found 3!" << std::endl;
+    }
+
+    // 删除元素
+    myUnorderedSet.erase(5);
+
+    return 0;
+}
+```
+
+### 总结
+
+- **`std::set`**：适用于需要唯一且有序的元素集合。
+- **`std::multiset`**：适用于需要唯一性但允许重复的有序元素集合。
+- **`std::unordered_set`**：适用于需要唯一性但不关心元素顺序的集合，通常具有更快的查找性能。
+
+## for(int num : nums2)
+
+`or(int num : nums2)` 是一种范围基于的 `for` 循环（range-based for loop），用于遍历容器（如数组或向量）中的每个元素。具体来说：
+
+- **`int num`**: 在每次迭代中， `num` 将被赋值为 `nums2` 中**当前元素的值**，而不是索引。
+- **`: nums2`**: 指定要遍历的容器，这里是 `nums2` 向量。
+
+### 功能
+
+这个循环的作用是依次访问 `nums2` 中的每一个元素，执行循环体内的代码。它的简洁性使得代码更易读，避免了使用传统的索引方式。
+
+### 示例
+
+假设 `nums2` 的内容是 `{1, 2, 3}`，那么循环将依次执行：
+
+- 第一次：`num` 为 `1`
+- 第二次：`num` 为 `2`
+- 第三次：`num` 为 `3`
+
+在每次迭代中，可以对 `num` 进行操作，比如检查它是否在 `nums1_set` 中。
+
+## nums1_set.find(num) != nums1_set.end()
+
+这段代码的作用是检查 `num` 是否存在于 `nums1_set` 中，需要注意的是 `find` 方法用于查找集合中是否存在指定的元素 `num`，
+- 如果找到该元素，`find` 返回一个指向该元素的迭代器。
+- 如果没有找到该元素，这返回迭代器的末尾
+
+
+# 202. 快乐数【简单】
+
+```C
+#include <unordered_set>
+
+class Solution {
+public:
+    bool isHappy(int n) {
+        std::unordered_set<int> seen; // 创建哈希集
+        while (n != 1 && seen.find(n) == seen.end()) {
+            seen.insert(n); // 将当前数字加入哈希集
+            n = getNext(n); // 计算下一个数字
+        }
+        return n == 1; // 如果最终得到 1，返回 true
+    }
+
+private:
+    int getNext(int n) {
+        int sum = 0;
+        while (n > 0) {
+            int digit = n % 10; // 获取最后一位数字
+            sum += digit * digit; // 计算平方和
+            n /= 10; // 去掉最后一位数字
+        }
+        return sum; // 返回平方和
+    }
+};
+
+```
+
+
+注意看这行代码 `seen.find(n) == seen.end()`
+
+### 哈希集的工作原理
+
+1. **定义哈希集**:
+    
+    - 使用一个哈希集 `seen` 来存储已经计算过的数字。
+    - 哈希集允许快速查找、插入和删除操作，平均时间复杂度为 O(1)。
+2. **检测循环**:
+    
+    - 在每次计算平方和后，检查当前数字是否已经存在于 `seen` 中。
+    - 如果存在，说明我们已经计算过这个数字，意味着进入了循环。
+    - 如果不存在，则将当前数字加入 `seen`，继续计算下一个平方和。
