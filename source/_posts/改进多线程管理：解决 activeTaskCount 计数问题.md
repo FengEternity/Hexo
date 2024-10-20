@@ -1,6 +1,6 @@
 ---
 # 基本信息
-改进多线程管理：解决 activeTaskCount 计数问题
+title: 改进多线程管理：解决 activeTaskCount 计数问题
 date: 2024/10/20
 tags: [cpp, 计算机, debug]
 categories: [debug, cpp]
