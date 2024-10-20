@@ -1,16 +1,16 @@
 ---
 # 基本信息
-title: 改进多线程管理-解决 activeTaskCount 计数问题
-date: 2024/07/09
+改进多线程管理：解决 activeTaskCount 计数问题
+date: 2024/10/20
 tags: [cpp, 计算机, debug]
 categories: [debug, cpp]
-description: 改进多线程管理-解决 activeTaskCount 计数问题
+description: 改进多线程管理：解决 activeTaskCount 计数问题
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
-  headline:  改进多线程管理-解决 activeTaskCount 计数问题 # 必选
+  headline:  改进多线程管理：解决 activeTaskCount 计数问题 # 必选
   caption:  # 可选
   color:  # 可选
 # 插件
