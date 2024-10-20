@@ -3,7 +3,7 @@
 改进多线程管理：解决 activeTaskCount 计数问题
 date: 2024/10/20
 tags: [cpp, 计算机, debug]
-categories: [FileTAG, debug, cpp]
+categories: [debug, cpp]
 description: 改进多线程管理：解决 activeTaskCount 计数问题
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg
