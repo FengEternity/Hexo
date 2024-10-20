@@ -6,8 +6,8 @@ tags: [cpp, 计算机, debug]
 categories: [debug, cpp]
 description: 改进多线程管理：解决 activeTaskCount 计数问题
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg
-banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241020152929.png
+banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241020152929.png
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
   headline:  改进多线程管理：解决 activeTaskCount 计数问题 # 必选
@@ -30,6 +30,8 @@ rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 ---
+
+
 
 # 问题描述
 
