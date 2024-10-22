@@ -1,34 +1,34 @@
 ---
-# 基本信息
 title: Logger 类的实现与改进
 date: 2024/10/07
-tags: [cpp, 计算机]
-categories: [cpp]
+tags:
+  - cpp
+  - 计算机
+  - 日志
+categories:
+  - cpp
 description: Logger 类的实现与改进
-# 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/41370f2e263ceb323994939fe9f9ae4e.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/41370f2e263ceb323994939fe9f9ae4e.jpg
-poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
-  headline:  Logger 类的实现与改进 # 必选
-  caption:  # 可选
-  color:  # 可选
-# 插件
-sticky: # 数字越大越靠前
-mermaid:
+poster:
+  topic: 
+  headline: Logger 类的实现与改进
+  caption: 
+  color: 
+sticky: 
+mermaid: 
 katex: true
 mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
+topic: 计算机
 author: Montee
-references:
-comments: # 设置 false 禁止评论
-indexing: # 设置 false 避免被搜索
-breadcrumb: # 设置 false 隐藏面包屑导航
+references: 
+comments: 
+indexing: 
+breadcrumb: 
 leftbar: 
-rightbar:
-h1: # 设置为 '' 隐藏标题
-type: tech # tech/story
+rightbar: 
+h1: 
+type: tech
 ---
 
 在软件开发中，日志记录是一个至关重要的功能，它不仅可以帮助开发者调试程序，还能在生产环境中监控系统的运行状态。

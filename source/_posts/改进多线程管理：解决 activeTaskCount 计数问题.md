@@ -1,34 +1,36 @@
 ---
-# 基本信息
 title: 改进多线程管理：解决 activeTaskCount 计数问题
 date: 2024/10/20
-tags: [cpp, 计算机, debug]
-categories: [debug, cpp]
+tags:
+  - cpp
+  - 计算机
+  - debug
+  - 多线程
+categories:
+  - debug
+  - cpp
 description: 改进多线程管理：解决 activeTaskCount 计数问题
-# 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/unnamed.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/unnamed.jpg
-poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
-  headline:  改进多线程管理：解决 activeTaskCount 计数问题 # 必选
-  caption:  # 可选
-  color:  # 可选
-# 插件
-sticky: # 数字越大越靠前
-mermaid:
+poster:
+  topic: 
+  headline: 改进多线程管理：解决 activeTaskCount 计数问题
+  caption: 
+  color: 
+sticky: 
+mermaid: 
 katex: true
 mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
+topic: 计算机
 author: Montee
-references:
-comments: # 设置 false 禁止评论
-indexing: # 设置 false 避免被搜索
-breadcrumb: # 设置 false 隐藏面包屑导航
+references: 
+comments: 
+indexing: 
+breadcrumb: 
 leftbar: 
-rightbar:
-h1: # 设置为 '' 隐藏标题
-type: tech # tech/story
+rightbar: 
+h1: 
+type: tech
 ---
 
 # 问题描述
