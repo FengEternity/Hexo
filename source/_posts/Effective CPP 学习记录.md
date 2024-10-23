@@ -1,5 +1,5 @@
 ---
-title: Effective C++ 学习记录
+title: Effective CPP 学习记录
 date: 2024/10/23
 tags:
   - cpp
@@ -11,7 +11,7 @@ cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023160351.
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023160351.png
 poster:
   topic: 
-  headline: Effective C++ 学习记录
+  headline: Effective CPP 学习记录
   caption: 
   color: 
 sticky: 
