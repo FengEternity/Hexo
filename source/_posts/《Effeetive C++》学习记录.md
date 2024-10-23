@@ -31,3 +31,4 @@ h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 ---
 
+test
