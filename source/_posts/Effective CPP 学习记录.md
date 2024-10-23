@@ -101,3 +101,17 @@ private:
 
 通常，C++要求为所使用的任何东西提供定义，但类专用的静态整数类型（例如integer、char、
 bool）常量是个例外。只要不获取它们的地址，就可以在不提供定义的情况下声明并使用它们。
+
+
+### 形似函数的宏，使用 inline 替换
+
+```C
+#define CALL_WITH_MAX(a, b) f((a) > (b) ? (a) : (b))
+
+// 上面的宏可以替换为：
+
+template<typename T>
+inline void callWithMax(const T& a, const T& b) {
+	f(a > b ? a : b);
+}
+```
