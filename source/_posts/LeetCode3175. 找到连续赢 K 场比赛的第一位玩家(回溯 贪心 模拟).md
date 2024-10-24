@@ -162,3 +162,8 @@ int findWinningPlayer(std::vector<int>& skills, int k) {
 
 **空间复杂度**：$O(1)$，只需要几个变量来跟踪当前胜者和连胜次数，不占用额外栈空间。
 
+
+# N 皇后问题
+
+https://programmercarl.com/0051.N%E7%9A%87%E5%90%8E.html#%E6%80%9D%E8%B7%AF
+
