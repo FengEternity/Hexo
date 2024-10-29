@@ -1,34 +1,34 @@
 ---
-# 基本信息
 title: SQL 学习
 date: 2024/10/29
-tags: [cpp, cpp]
-categories: [cpp, sql]
+tags:
+  - cpp
+  - cpp
+categories:
+  - cpp
+  - sql
 description: SQL 学习记录
-# 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png
-poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
-  headline:  SQL 学习 # 必选
-  caption:  # 可选
-  color:  # 可选
-# 插件
-sticky: # 数字越大越靠前
-mermaid:
+poster:
+  topic: 
+  headline: SQL 学习
+  caption: 
+  color: 
+sticky: 
+mermaid: 
 katex: true
-mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
+mathjax: true
+topic: 计算机
 author: Montee
-references:
-comments: # 设置 false 禁止评论
-indexing: # 设置 false 避免被搜索
-breadcrumb: # 设置 false 隐藏面包屑导航
+references: 
+comments: 
+indexing: 
+breadcrumb: 
 leftbar: 
-rightbar:
-h1: # 设置为 '' 隐藏标题
-type: tech # tech/story
+rightbar: 
+h1: 
+type: tech
 ---
 
 本文为《MySQL 必知必会》学习笔记，仅记录个人欠缺的知识点，不具有系统学习的效用。
@@ -91,4 +91,24 @@ LIMIT 5, 5;
 
 
 # 第五章 排序检索数据
+
+1. `ORDER BY`
+
+```MySQL
+SELECT id, price, name
+FROM products
+ORDER BY price DESC, name
+limit 5;
+```
+
+这条 SQL 查询的作用是从 `products` 表中选择 `id`、`price` 和 `name` 列，并按以下规则排序和限制结果：
+- **`ORDER BY price DESC, name`**：
+    - 首先按 `price` 降序排序（从高到低）。
+    - 如果价格相同，则按 `name` 升序排序（字母顺序）。
+- **`LIMIT 5`**：限制结果集为前 5 条记录。
+
+排序默认是升序，`DESC` 可以指定某一列为降序
+
+
+# 第六章 过滤数据
 
