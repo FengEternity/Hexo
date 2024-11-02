@@ -1,15 +1,5 @@
-
-source/_posts/.DS_Store
-
 *.DS_Store
 *.json
-source/.DS_Store
+source/.obsidian/*
 themes/.DS_Store
-*.json
-/source/.obsidian
-source/.DS_Store
-themes/.DS_Store
-source/FileTAG 开发记录.md
-source/Excalidraw/Drawing 2024-10-09 16.23.34.excalidraw.md
-/source/Excalidraw
-db.json
+.DS_Store
