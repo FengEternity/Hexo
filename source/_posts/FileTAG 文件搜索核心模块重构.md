@@ -120,4 +120,183 @@ private:
 上述的主要问题总结起来就是耦合度过高，所以重构的策略也是比较明确的：
 ## 3.1 职责单一化
 
-## 信号与槽的合理应用
+我的修改思路是：
+1. 原有的 FileSearch 类保留用户界面的交互，处理用户输入和更新显示
+2. 定义新的 FileSearchCore 类，负责文件搜索的核心逻辑，包括搜索策略、结果处理和数据库操作等。
+
+这样分离确保了每个类功能的相对单一，降低了各个组件之间的耦合度。例如，当需要修改文件搜索逻辑时，只需调整 `FileSearchCore`，而不必担心影响 UI 逻辑。也很好的实现了，我希望在程序启动时，就开始文件搜索去建立文件索引的数据库。
+
+在原 FileSearch 保留 UI 交互功能，而不是创建新的类来进行 UI 交互还有一个重要的原因是：在这个类创建之初，就是一个 Qt UI 类，定义新的类进行功能代码迁移相比现在的实现方法要负责许多。
+
+具体修改后的头文件如下：
+
+```C
+/*  
+ * FileSearch.h 
+ * Author: Montee 
+ * CreateDate: 2024-11-1 
+ * Updater: Montee 
+ * UpdateDate: 2024-11-1 
+ * Summary: 文件搜索窗口类的实现文件  
+ */
+ 
+#ifndef FILESEARCH_H  
+#define FILESEARCH_H  
+  
+#include <QWidget>  
+#include <QLineEdit>  
+#include <QTableView>  
+#include <QPushButton>  
+#include <QStandardItemModel>  
+#include <QProgressBar>  
+#include <QLabel>  
+#include <QSortFilterProxyModel>  
+  
+#include "FileSearchCore.h"  
+  
+namespace Ui {  
+    class FileSearch;  
+}  
+  
+class FileSearch : public QWidget {  
+Q_OBJECT  
+  
+public:  
+    explicit FileSearch(QWidget *parent = nullptr);  
+    ~FileSearch();  
+  
+private slots:  
+    void onSearchButtonClicked();  
+    void onFinishButtonClicked();  
+    void onSearchFilterChanged(const QString &text);  
+    void onFileFound(const QString &filePath);  
+    void onSearchFinished();  
+    void updateProgress(int value, int total);  
+  
+private:  
+    Ui::FileSearch *ui;  
+    QPushButton *searchButton;  
+    QLineEdit *searchLineEdit;  
+    QLineEdit *pathLineEdit;  
+    QLineEdit *filterLineEdit;  
+    QTableView *resultTableView;  
+    QStandardItemModel *tableModel;  
+    QSortFilterProxyModel *proxyModel;  
+    QPushButton *finishButton;  
+    QProgressBar *progressBar;  
+    QLabel *progressLabel;  
+  
+    FileSearchCore *searchCore;  
+  
+    void updateProgressLabel(int value, int total);  
+};  
+  
+#endif // FILESEARCH_H
+```
+
+```C
+/*  
+ * FileSearchCore.h 
+ * Author: Montee 
+ * CreateDate: 2024-11-1 
+ * Updater: Montee 
+ * UpdateDate: 2024-11-1 
+ * Summary: 文件文件搜索核心逻辑  
+ */  
+ 
+#ifndef FILESEARCHCORE_H  
+#define FILESEARCHCORE_H  
+  
+#include <QObject>  
+#include <QThreadPool>  
+#include <QElapsedTimer>  
+#include <QQueue>  
+#include <QMutex>  
+#include <QWaitCondition>  
+#include <QSet>  
+  
+#include "FileSearchThread.h"  
+#include "FileIndexDatabase.h"  
+#include "DatabaseThread.h"  
+  
+class FileSearchCore : public QObject {  
+Q_OBJECT  
+  
+public:  
+    explicit FileSearchCore(QObject *parent = nullptr);  
+    ~FileSearchCore();  
+  
+    void startSearch(const QString &keyword, const QString &path);  
+    void stopSearch();  
+    void initFileDatabase();  
+  
+signals:  
+    void fileFound(const QString &filePath);  
+    void searchFinished();  
+    void progressUpdated(int value, int total);  
+  
+private slots:  
+    void onFileInserted(const QString &filePath);  
+    void onSearchFinished();  
+    void onTaskStarted();  
+    void onFileFound(const QString &filePath);  
+  
+private:  
+    void enqueueDirectories(const QString &path, int depth);  
+    void finishSearch();  
+    void stopAllTasks();  
+    void onSearchTime(qint64 elapsedTime);  
+  
+    // 成员变量  
+    int activeTaskCount;  
+    int totalDirectories;  
+    int updateCounter;  
+    bool isSearching;  
+    bool firstSearch;  
+    bool isStopping;  
+    static QVector<QString> filesBatch;  
+  
+    QThreadPool *threadPool;  
+    QElapsedTimer timer;  
+    QSet<QString> uniquePaths;  
+    QSet<QString> uniqueFiles;  
+    QQueue<QString> *taskQueue;  
+    QMutex *queueMutex;  
+    QWaitCondition *queueCondition;  
+    QMutex uniqueFilesMutex;  
+  
+    FileIndexDatabase *db;  
+    DatabaseThread *dbThread;  
+};  
+  
+#endif // FILESEARCHCORE_H
+```
+
+## 3.2 信号与槽的合理应用
+
+在重构过程中，充分利用了 Qt 的信号与槽机制。`FileSearchCore` 中的文件找到信号 `fileFound` 被用来通知 `FileSearch` 更新 UI。这一改变实现了以下几点：
+
+- **解耦合**：`FileSearchCore` 不再直接与 UI 组件交互，降低了与 UI 的耦合性。
+- **增强可扩展性**：将来可以轻松添加新的 UI 组件或更换 UI 逻辑，而不需要修改核心搜索逻辑。
+
+```C
+// 在 FileSearchCore 中发出信号
+emit fileFound(filePath);
+
+// 在 FileSearch 中连接信号
+connect(fileSearchCore, &FileSearchCore::fileFound, this, &FileSearch::onFileFound);
+
+```
+
+通过这种方式，`FileSearchCore` 的逻辑与 UI 更新分开，减少了系统整体的耦合度。
+
+然而修改了 UI 更新的思想逻辑后，也带来了一些新的问题，如：
+1. 批量更新搜索文件功能缺失
+2. 现在的代码完全基于数据库搜索，如何平衡数据库搜索与遍历文件系统
+3. 如何高效地创建于定时更新数据库
+4. 搜索结果显示错误，只要路径中含有 keyword 就会被显示
+5. 如何合理的设计索引表，即如何把文件书转化为关系型数据库，要能够在不占用过多磁盘空间的前提下，设计出一种便于搜索的数据表
+6. 在程序启动时，要能对数据库进行判断，是建立新的文件索引数据库，或者是检查更新
+7. 数据库安全问题
+8. ……
+不过这个问题主要是由于搜索逻辑改变顺带形成的，将会在增加数据库文章中，进行详细介绍。
