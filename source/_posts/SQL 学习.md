@@ -112,3 +112,57 @@ limit 5;
 
 # 第六章 过滤数据
 
+
+where 子句操作符：
+
+| 操作符       | 描述                                           | 示例                                      |
+|--------------|------------------------------------------------|-------------------------------------------|
+| =            | 等于                                           | `SELECT * FROM table WHERE column = 1;`   |
+| <> 或 !=     | 不等于                                         | `SELECT * FROM table WHERE column <> 1;`  |
+| >            | 大于                                           | `SELECT * FROM table WHERE column > 1;`   |
+| <            | 小于                                           | `SELECT * FROM table WHERE column < 1;`   |
+| >=           | 大于等于                                       | `SELECT * FROM table WHERE column >= 1;`  |
+| <=           | 小于等于                                       | `SELECT * FROM table WHERE column <= 1;`  |
+| BETWEEN ... AND ... | 在某个范围内                             | `SELECT * FROM table WHERE column BETWEEN 1 AND 10;` |
+| LIKE         | 搜索某种模式                                   | `SELECT * FROM table WHERE column LIKE 'A%';` |
+| IN           | 匹配一组值中的任意一个                         | `SELECT * FROM table WHERE column IN (1, 2, 3);` |
+| IS NULL      | 为 NULL                                        | `SELECT * FROM table WHERE column IS NULL;` |
+| IS NOT NULL  | 不为 NULL                                      | `SELECT * FROM table WHERE column IS NOT NULL;` |
+| AND          | 两个条件都为真                                 | `SELECT * FROM table WHERE column1 = 1 AND column2 = 2;` |
+| OR           | 任一条件为真                                   | `SELECT * FROM table WHERE column1 = 1 OR column2 = 2;` |
+| NOT          | 否定条件                                       | `SELECT * FROM table WHERE NOT column = 1;` |
+| EXISTS       | 子查询返回一个或多个行                         | `SELECT * FROM table WHERE EXISTS (SELECT * FROM other_table WHERE condition);` |
+
+# 第七章 数据过滤
+
+
+# 第八章 用通配符进行过滤
+
+
+## 百分号通配符
+
+```MySQL
+SELECT id, name
+FROM products
+WHERE name like '%jet%'
+```
+
+上面的查询语句将返回所有 name 中包含 `jet` 的杭
+
+## 下划线通配符
+
+与 `%` 不同的是，`_` 仅匹配一个字符，或许把它理解为一个占位符也是个不错的思路。
+
+
+## 使用通配符的技巧
+
+1. 不要过度使用。如果有其他方法可代替，需要比较一下，因为通配符的搜索是比较耗时的
+2. 注意通配符的位置
+
+# 第九章 用正则表达式进行搜索
+
+这部分后续将具体学习，现在不太了解正则，读起来有些吃力。
+
+
+# 第十章 创建计算字符
+
