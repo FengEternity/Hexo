@@ -1,5 +1,5 @@
 ---
-title: 为文件搜索模块添加数据库索引
+title: FileTAG 为文件搜索模块添加数据库索引
 date: 2024/10/29
 tags:
   - cpp
@@ -8,6 +8,7 @@ tags:
   - 数据库
 categories:
   - C++
+  - FileTAG
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
@@ -245,14 +246,82 @@ QVector<QString> FileDatabase::searchFiles(const QString &keyword) {
 - `extractKeywordsFromFile()`：使用正则表达式匹配文件内容中的关键词，并通过停用词过滤，生成关键词列表。
 - 将这些关键词与文件 ID 一起存入 `file_keywords` 表，使得用户可以通过关键词直接找到相关文件。
 
+详细代码如下：
 
+```C
+QVector<QString> FileSearch::extractKeywordsFromFile(const QString &filePath) {  
+    QVector<QString> keywords;  
+    QFile file(filePath);  
+  
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {  
+        qDebug() << "无法打开文件进行关键词提取:" << filePath;  
+        return keywords;  
+    }  
+  
+    QTextStream in(&file);  
+    QString content = in.readAll();  
+    file.close();  
+  
+    // 使用正则表达式匹配所有单词  
+    QRegularExpression wordRegex("\\b\\w+\\b");  
+    QRegularExpressionMatchIterator it = wordRegex.globalMatch(content.toLower());  
+  
+    // 停用词列表（可以根据需要添加更多停用词）  
+    QSet<QString> stopwords = {"the", "and", "is", "in", "to", "of", "a", "an"};  
+  
+    // 提取并过滤关键词  
+    while (it.hasNext()) {  
+        QRegularExpressionMatch match = it.next();  
+        QString word = match.captured(0);  
+  
+        // 过滤掉长度小于等于2的词和停用词  
+        if (word.length() > 2 && !stopwords.contains(word)) {  
+            keywords.append(word);  
+        }  
+    }  
+  
+    return keywords;  
+}
+```
+
+在实际运行过程中发现，有些文件会给出 **“无法打开文件进行关键词提取:”** 的提示，定位到这个地方。发现在判断语句中要先尝试能否以只读和文本模式打开文件，如果打开失败，输出调试信息并返回空的关键词列表。
+
+然而我们的实际需求是：只是从文件名中提取关键词，而不是文件内容，所以并不需要打开文件。故修改代码为：
+
+```C
+QVector<QString> FileSearch::extractKeywordsFromFile(const QString &filePath) {  
+    QVector<QString> keywords;  
+      
+    QString filename = QFileInfo(filePath).fileName();  
+  
+    // 使用正则表达式匹配所有单词  
+    QRegularExpression wordRegex("\\b\\w+\\b");  
+    QRegularExpressionMatchIterator it = wordRegex.globalMatch(filename.toLower());  
+  
+    // 停用词列表（可以根据需要添加更多停用词）  
+    QSet<QString> stopwords = {"the", "and", "is", "in", "to", "of", "a", "an"};  
+  
+    // 提取并过滤关键词  
+    while (it.hasNext()) {  
+        QRegularExpressionMatch match = it.next();  
+        QString word = match.captured(0);  
+  
+        // 过滤掉长度小于等于2的词和停用词  
+        if (word.length() > 2 && !stopwords.contains(word)) {  
+            keywords.append(word);  
+        }  
+    }  
+  
+    return keywords;  
+}
+```
 # 2. 现阶段问题
 
-1. 程序运行卡死
-	1. 初步判断为，数据库建立索引与UI更新在同一个线程导致的
-2. 数据库文件索引建立不合理
-	1. 浪费大量的空间
-	2. 如何把一个树结构转化为便于搜索的数据结构
-3. 关键词提取不合理
-	1. 从数据库保存的信息来看，会提取整个路径的关键词，而不是当前文件
-4. 
+1. 批量更新搜索文件功能缺失
+2. 现在的代码完全基于数据库搜索，如何平衡数据库搜索与遍历文件系统
+3. 如何高效地创建于定时更新数据库
+4. 搜索结果显示错误，只要路径中含有 keyword 就会被显示
+5. 如何合理的设计索引表，即如何把文件书转化为关系型数据库，要能够在不占用过多磁盘空间的前提下，设计出一种便于搜索的数据表
+6. 在程序启动时，要能对数据库进行判断，是建立新的文件索引数据库，或者是检查更新
+7. 数据库安全问题
+8. ……  
