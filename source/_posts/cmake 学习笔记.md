@@ -196,3 +196,85 @@ target_link_libraries(MyExecutable Boost::Boost)
 
 # 3. CMake 构建流程
 
+1. 创建构建目录：保持源代码目录整洁，如创建`build`
+2. 使用CMake生成构建文件：配置项目并生成适合执行的构建文件 `cmake ..`
+3. 编译和构造：使用生成好的构建文件执行编译和构建 `make`
+4. 清理构建文件：删除中间文件和目标文件
+5. 重新配置和构建：处理项目设置的更改
+
+![image-20241218211356800](https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedimage-20241218211356800.png)
+
+# 4. 构建实例
+
+```tex
+MyProject/
+├── CMakeLists.txt
+├── src/
+│   ├── main.cpp
+│   └── mylib.cpp
+└── include/
+    └── mylib.h
+```
+
+1. 创建 CMakeLists.txt
+
+   ```cmake
+   cmake_minimum_required(VERSION 3.10)
+   
+   project(MyProject VERSION 1.0)
+   
+   set(CMAKE_CXX_STANDARD 11)
+   set(CMAKE_CXX_STANDARD_REQUIRED ON)
+   
+   # 设置头文件搜索目录
+   include_directories(${PROJECT_SOURCE_DIR}/include) 
+   
+   # 添加源文件
+   add_library(MyLib src/mylib.cpp) 	# 创建一个库目标 MyLib
+   add_executable(MyExecutable src/main.cpp)	 #创建一个可执行文件目标 MyExecutable
+   
+   # 链接库到可执行文件
+   target_link_libraries(MyExecutable MyLib)
+   ```
+
+2. 创建构建目录
+
+   ```bash
+   mkdir build && cd build
+   ```
+
+3. 配置项目
+
+   在构建目录(build)使用CMake构建醒目，这将生成适合平台的构建文件（如 Makefile）
+
+   ```bash
+   cmake ..
+   ```
+
+   * cmake ..：指向源代码目录，即包含 CMakeLists.txt 文件的目录。CMake 将读取 CMakeLists.txt 文件并生成构建系统文件。
+
+4. 编译项目
+
+   使用生成的构建系统文件编译项目。根据生成的构建文件系统，使用相应的构建命令。
+
+   ```bash
+   make
+   ```
+
+   * make：编译项目并生成可执行文件 MyExecutable
+
+5. 运行可执行文件
+
+   ```bash
+   ./MyExecutable
+   ```
+
+6. 清理构建文件
+
+   用于删除生成的中间文件和目标文件
+
+   ```bash
+   make clean
+   ```
+
+   
