@@ -6,7 +6,7 @@ tags: [cpp, 计算机, cmake]
 categories: [cpp]
 description: cmkae 学习笔记
 # 封面
-cover:https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedokEUIAAAeWU6AEzyCfDlt963F0IAYhAgNpijCt~tplv-dy-aweme-images%3Aq75.webp
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedokEUIAAAeWU6AEzyCfDlt963F0IAYhAgNpijCt~tplv-dy-aweme-images%3Aq75.webp
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedokEUIAAAeWU6AEzyCfDlt963F0IAYhAgNpijCt~tplv-dy-aweme-images%3Aq75.webp
 poster:  # 海报（可选，全图封面卡片）
   topic: # 可选
