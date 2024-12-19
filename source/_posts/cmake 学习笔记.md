@@ -21,7 +21,7 @@ mathjax:
 # 可选
 topic: 计算机 # 专栏 id
 author: Montee
-references:1. 自定义 CMake 模块和脚本
+references:
 comments: # 设置 false 禁止评论
 indexing: # 设置 false 避免被搜索
 breadcrumb: # 设置 false 隐藏面包屑导航
