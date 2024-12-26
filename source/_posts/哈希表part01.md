@@ -1,4 +1,4 @@
----
+%% ---
 title: 哈希表part01
 date: 2024/08/02
 tags:
@@ -32,7 +32,7 @@ leftbar:
 rightbar: 
 h1: 
 type: tech
----
+--- %%
 
 # 哈希表理论基础
 

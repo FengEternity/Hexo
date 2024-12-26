@@ -1,4 +1,4 @@
----
+%% ---
 title: LeetCode3175. 找到连续赢 K 场比赛的第一位玩家(回溯 贪心 模拟)
 date: 2024/10/24
 tags:
@@ -32,7 +32,7 @@ leftbar:
 rightbar: 
 h1: 
 type: tech
----
+--- %%
 
 > 1024 程序员节快乐！
 

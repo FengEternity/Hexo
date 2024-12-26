@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: 链表part02
 date: 2024/05/31
@@ -29,7 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
----
+--- %%
 
 # 24. 两两交换链表中的节点【中等】
 
