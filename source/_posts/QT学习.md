@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: QT 学习记录
 date: 2024/05/31
@@ -30,7 +30,7 @@ rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 ---
-
+ %%
 
 {% timeline %}
 

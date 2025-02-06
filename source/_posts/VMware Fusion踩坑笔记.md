@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: VMware Fusion 踩坑笔记（M1 Pro）
 date: 2024/06/17
@@ -30,7 +30,7 @@ rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 
----
+--- %%
 
 > 一个好用的 Mac 软件下载库：https://www.macat.vip
 

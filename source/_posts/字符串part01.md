@@ -1,4 +1,4 @@
----
+%% ---
 title: 字符串part01
 date: 2024/08/03
 tags:
@@ -32,7 +32,7 @@ leftbar:
 rightbar: 
 h1: 
 type: tech
----
+--- %%
 
 # 344. 反转字符串【简单】
 
