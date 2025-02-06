@@ -264,3 +264,34 @@ search()：比对某个容器中是否存在某个子序列。如，在 `{1,3,5,
 
 * Function Objects：算术运算，关系运算和逻辑运算
 	* 算术运算：plus
+
+## 3.7 使用 Map
+
+map 按键查找：`words.find("findTarget");` 该语句会返回一个 iterator，没有则返回 `end()`。
+另一种方法是，使用 `count()`，如`words.count("findTarget");` 该函数返回 findTarget 的个数。
+
+## 3.8 使用 Set
+
+对于任何 key 值， set 容器只存储一份，换言之 set 不会存储相同的对象。
+
+且 set 容器默认使用 less-than 排序。
+
+
+## 3.9 如何使用 Iterator Inserter
+
+没看懂……
+
+## 3.10 使用 iostream Iterator
+
+
+
+# 4. 基于对象的编程风格
+
+## 4.1 如何实现一个 class
+
+如果函数在 class 主体中定义，或者说在函数声明时定义（在头文件中），这个成员函数会自动被视为 inline 函数。
+
+## 4.2 什么是构造函数和析构函数
+
+
+Member Initialization List （成员初始化列表）
