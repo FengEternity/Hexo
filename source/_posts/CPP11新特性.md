@@ -138,3 +138,182 @@ Student students[3]{{"Tom", 3.5},{ "Jerry", 3.8 }, {"Spike", 3.2}};
 * 用来修饰类：表示这个类不能被继承
 * 用来修饰虚函数：表示该函数不可被子类重写
 
+## 7. 右值引用
+
+之所以需要右值引用，是因为右值往往是没有名称的，在实际开发中可能需要对其进行修改，因此只能使用引用的方法。
+
+C++标准委员会在选定右值引用符号时，既希望选用现有 C++内部已有的符号，还不能与 C++98/03 标准冲突，最终选择 `&&`。
+
+### 左值与右值
+
+* 左值：表示可以**获取地址的表达式**，可以出现在赋值语句的左边
+* 右值：无法获取地址的对象，有**常量值、函数返回值、lambda表达式**等。
+
+### 语法
+
+语法：`类型&& 引用变量的名字 = 右值； `
+
+```c++
+int && a = 10;
+a = 100;
+cout << a << endl;// 输出结果为 100
+
+int num  = 10;
+// int && b = num;  // 语法错误。右值引用不能初始化为左值
+```
+
+### 移动语义
+
+在C++中定义类时，如果该类包含需要特殊处理的资源，比如动态分配的内存（通过指针管理），则需要你手动提供拷贝构造函数、赋值运算符重载和析构函数。这是因为默认的编译器生成的行为可能不是你想要的，特别是对于资源的复制和释放操作，若不正确处理，可能会导致内存泄漏、资源竞争或悬挂指针等问题。
+
+> 悬挂指针（Dangling Pointer）是一种指针，它指向的是一个已经被释放（deallocated）或已经不再被程序所控制的内存区域。
+
+系统默认的拷贝构造函数是一个浅拷贝构造函数，在下面的例子从就会出现问题：
+
+```c++
+class Resource {
+public:
+    Resource() : data(new int) {
+        *data = 0;  // 动态分配内存，并初始化一个整数
+    }
+    // 省略默认拷贝构造函数、赋值运算符和析构函数
+
+private:
+    int* data;
+};
+
+```
+
+如果此时想要复制这个对象：
+
+```c++
+Resource r1;  // 初始对象
+Resource r2 = r1;  // 尝试拷贝
+
+// 或者
+Resource r1;  // 初始对象
+Resource r3;
+r3 = r1;  // 尝试赋值
+
+```
+
+均会使用默认的拷贝构造函数和赋值运算符，这意味着两个不同的对象`r2`和`r3`都将包含同样的指针指向同一个动态分配的整数。当这些对象析构时，都会尝试释放同一个内存块，导致第二次释放（double-free）错误。
+
+正确的处理方式如下：
+
+```c++
+class Resource {
+public:
+    Resource() : data(new int) {
+        *data = 0;  // 动态分配内存，并初始化一个整数
+    }
+
+    // 拷贝构造函数
+    Resource(const Resource& other) {
+        data = new int(*other.data);
+    }
+
+    // 赋值运算符
+    Resource& operator=(const Resource& other) {
+        if (this != &other) {  // 检查自我赋值
+            delete data;
+            data = new int(*other.data);
+        }
+        return *this;
+    }
+
+    // 析构函数
+    ~Resource() {
+        delete data;
+    }
+
+private:
+    int* data;
+};
+
+```
+
+通过这种方式，每次对象复制或赋值都将分配新的内存，这样就不会存在资源释放的问题。当对象析构时，也会正确地释放它们各自分配的内存资源。
+
+正如我们所见，`Resource` 类初始化时会分配内存，并在析构时释放这块内存。拷贝构造函数简单地复制整数值。在一个只有简单数据类型复制的场景里，这还不算问题，但在处理更大规模的数据或者更复杂的资源管理时，这种深拷贝会引发效率问题和资源浪费。
+
+当我们考虑诸如临时对象、返回值优化（RVO）和异常安全等C++概念时，深拷贝变得尤为低效。类的移动构造函数和移动赋值运算符应运而生，它们旨在通过采用资源的所有权转移，而不是复制，来优化性能。
+
+下面的代码展示了移动语义：
+
+```c++
+#include <iostream>
+
+class Resource {
+public:
+    // 默认构造函数
+    Resource() : data(new int) {
+        *data = 0;  // 动态分配内存，并初始化一个整数
+    }
+
+    // 拷贝构造函数
+    Resource(const Resource& other) {
+        data = new int(*other.data);
+    }
+
+    // 移动构造函数
+    Resource(Resource&& other) noexcept : data(other.data) {
+        other.data = nullptr;  // 将临时对象的内部指针置空，以避免析构时释放资源
+    }
+
+    // 赋值运算符
+    Resource& operator=(const Resource& other) {
+        if (this != &other) {  // 检查自我赋值
+            delete data;
+            data = new int(*other.data);
+        }
+        return *this;
+    }
+
+    // 移动赋值运算符
+    Resource& operator=(Resource&& other) noexcept {
+        if (this != &other) {  // 避免自我赋值
+            delete data;  // 释放当前对象的资源
+            data = other.data;  // 窃取其他对象的资源
+            other.data = nullptr;  // 将其他对象的指针置空
+        }
+        return *this;
+    }
+
+    // 析构函数
+    ~Resource() {
+        delete data;
+    }
+
+    // 友元函数，用于打印内部的整数值，以方便测试
+    friend std::ostream& operator<<(std::ostream& os, const Resource& res) {
+        os << *res.data;
+        return os;
+    }
+
+private:
+    int* data;
+};
+
+int main() {
+    Resource r1;
+    Resource r2 = r1;  // 测试拷贝构造函数
+    Resource r3(r1);   // 测试拷贝构造函数
+    Resource r4;      // 测试默认构造函数
+    r4 = std::move(r1);  // 测试移动赋值运算符
+    Resource r5(std::move(r2));  // 测试移动构造函数
+
+    std::cout << "r4: " << r4 << std::endl;  // 输出 r4 的值，应为 0（从 r1 移动后 r1 的值）
+    std::cout << "r1: " << r1 << std::endl;  // 输出 r1 的值，应为 1431655762（移动后变为未定义的值）
+
+    return 0;
+}
+
+```
+
+在移动构造函数中，我们接收了一个**右值引用**。就如同在类的传统构造函数中，我们管理新分配的内存一样，此处我们直接获取了传入对象的内存资源。重要的是，在所有操作完成后，我们将传入对象的资源指针清零，防止在它的消亡过程中重复释放。
+
+移动赋值运算符的实现与构造函数类似，但是涉及到现有对象的资源管理。在将新资源赋给`this`之前，我们首先需要释放当前拥有的资源。利用C++的异常安全保证，这种处理确保了即便在复制操作中抛出异常，现有资源也被正确清理。
+
+## 8. move 函数
+
