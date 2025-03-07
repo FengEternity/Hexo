@@ -6,7 +6,6 @@ tags:
   -cpp
 categories: 
   -cpp
-
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
@@ -97,4 +96,45 @@ for(declaration : expression) {
   // 循环体
 }
 ```
+
+* declaration：表示此处要定义一个变量，该变量的类型为要遍历序列中存储元素的类型。C++11中，此处可以使用 auto 进行推导
+* expression：表示要进行遍历的序列
+
+> 使用基于范围的 for 循环，如果在遍历时想要修改元素的值，将 declaration 参数处定义为**引用类型**即可。
+
+## 4. 列表初始化
+
+C++ 11 标准下，初始化列表的适用性被大大增加，它可以用于任意类型对象的初始化。
+
+```c++
+// 定义一个学生类
+class Student {
+private:
+    string name;
+    double gradePointAverage;
+
+public:
+    Student(const string &n): name(n), gradePointAverage(0.0) {}
+
+    void addGrade(double gpa) {
+        gradePointAverage += gpa / 10.0;
+    }
+};
+
+Student students[3]{{"Tom", 3.5},{ "Jerry", 3.8 }, {"Spike", 3.2}}; 
+
+```
+
+ 如果类中有成员变量是 const 类型，那么只能使用列表初始化的方式进行初始化。
+
+此外需要注意的是，**在上面代码中成员变量初始化的顺序并非此处构造函数的书写顺序，而是在类中声明的顺序。**为了避免错误，在编码过程中要使成员变量声明顺序，构造函数初始化顺序，和实例化对象时的初始化顺序三者一致。
+
+## 5. 使用 using 定义别名
+
+ 写法：`using db = double;` 等同于 `typedef double db;`
+
+## 6. final 关键字
+
+* 用来修饰类：表示这个类不能被继承
+* 用来修饰虚函数：表示该函数不可被子类重写
 
