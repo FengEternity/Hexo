@@ -11,7 +11,7 @@ categories:
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
 poster:  # 海报（可选，全图封面卡片）
-  headline:  在 Linux 中将 VSCode 添加到应用启动器，并使用 `code` 命令启动
+  headline:  C++11 新特性
 ---
 
 # C++ 11 新特性
