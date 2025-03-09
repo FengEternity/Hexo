@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: FileTag：为文件添加标签的利器
 date: 2024/07/10
@@ -29,7 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: story # tech/story
----
+--- %%
 
 > 本篇博客大部分内容由 ChatGPT 生成！
 

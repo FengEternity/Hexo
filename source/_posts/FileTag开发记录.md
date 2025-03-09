@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: FileTag 开发记录、源码分析（CMakeLists.txt main.cpp）
 date: 2024/07/17
@@ -29,7 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: story # tech/story
----
+--- %%
 
 # CMakeLists.txt
 

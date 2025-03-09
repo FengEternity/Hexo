@@ -1,4 +1,4 @@
----
+%% ---
 # 基本信息
 title: 自用 prompt 示例
 date: 2024/06/18
@@ -29,7 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: story # tech/story
----
+--- %%
 
 
 

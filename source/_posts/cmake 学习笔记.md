@@ -1,6 +1,6 @@
 ---
 # 基本信息
-title: cmake  学习笔记
+title: cmake 学习笔记
 date: 2024/12/18
 tags: [cpp, 计算机, cmake]
 categories: [cpp]
