@@ -1,4 +1,4 @@
-%% ---
+ ---
 title: 哈希表part02
 date: 2024/08/02
 tags:
@@ -32,7 +32,7 @@ leftbar:
 rightbar: 
 h1: 
 type: tech
---- %%
+--- 
 
 # 454. 四数相加II【中等】
 

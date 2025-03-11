@@ -1,4 +1,4 @@
-%% ---
+---
 # 基本信息
 title: 数组part01
 date: 2024/05/28
@@ -29,9 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
---- %%
-
-
+--- 
 
 # 数组理论基础
 
