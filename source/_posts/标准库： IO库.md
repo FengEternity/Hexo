@@ -1,4 +1,4 @@
----
+%% ---
 title: 标准库： IO库
 date: 2024/11/3
 tags:
@@ -30,7 +30,7 @@ leftbar:
 rightbar: 
 h1: 
 type: tech
----
+--- %%
 
 最近在看 《Essential C++》，完成课后习题时发现自己对C++ 标准 IO 库还是不熟悉，所以把 《C++ Primer》有翻出来看看，这篇文章是阅读记录。
 
