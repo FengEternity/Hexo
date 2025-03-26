@@ -5,7 +5,7 @@ date: 2025/03/06
 tags:
   - cpp
 categories: 
-  -cpp
+  - cpp
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/aeecc37df29a25610d3d185900e38f8a.mp4.jpg
