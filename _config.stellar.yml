@@ -283,11 +283,12 @@ footer:
   sitemap:
     '博客':
       - '[近期](/)'
-      - '[分类](https://www.montylee.cn/categories)'
-      - '[标签](https://www.montylee.cn/tags)'
+      # - '[分类](https://www.montylee.cn/categories)'
+      # - '[标签](https://www.montylee.cn/tags)'
       - '[归档](https://www.montylee.cn/archives)'
     '项目':
-      - '[开源库](/)'
+      - '[IntelliSearch](https://github.com/FengEternity/IntelliSearch)'
+      - '[FileTag](https://github.com/FengEternity/FileTag)'
     '社交':
       - '[友链](https://www.montylee.cn/friends/)'
       - '[留言板](/)'
