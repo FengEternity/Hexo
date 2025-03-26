@@ -1,4 +1,4 @@
-%% ---
+ ---
 # 基本信息
 title: 链表part01
 date: 2024/05/31
@@ -29,7 +29,7 @@ leftbar:
 rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
---- %%
+--- 
 
 # 203. [移除链表元素【简单】](https://leetcode.cn/problems/remove-linked-list-elements/description/)
 
