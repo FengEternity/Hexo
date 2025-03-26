@@ -3,3 +3,6 @@
 source/.obsidian/*
 themes/.DS_Store
 .DS_Store
+VidHub*
+node_modules
+yarn.lock
