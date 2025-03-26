@@ -3,8 +3,8 @@
 title: 在 Linux 中将 VSCode 添加到应用启动器，并使用 `code` 命令启动
 date: 2024/12/19
 tags:
-  -arch
-  -linux 
+  - arch
+  - linux
 categories: 
   -linux
 

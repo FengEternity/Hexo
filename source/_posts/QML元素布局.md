@@ -3,7 +3,7 @@
 title: QML元素布局
 date: 2025/03/09
 tags:
-  -cpp
+  - cpp
 categories: 
   -cpp
 # 封面

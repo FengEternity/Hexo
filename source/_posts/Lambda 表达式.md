@@ -3,7 +3,7 @@
 title: Lambda表达式
 date: 2025/03/12
 tags:
-  -cpp
+  - cpp
 categories: 
   -cpp
 # 封面
