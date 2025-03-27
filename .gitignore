@@ -9,3 +9,5 @@ yarn.lock
 yarn.lock
 
 source/_posts/.obsidian/plugins/autoDescription
+source/_posts/.obsidian/plugins/editing-toolbar/main.js
+source/_posts/.obsidian/plugins/editing-toolbar/styles.css
