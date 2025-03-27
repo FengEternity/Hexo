@@ -6,7 +6,7 @@ tags:
   - 多线程
 categories:
   - C++
-description: 
+description: "本文是《C++并发编程实战》的阅读笔记，介绍了并发和多线程的基本概念、C++的并发历史、并发编程的原因和应用场景。并发指在单个系统里同时执行多个独立任务，通过任务切换实现。并发的途径包括多进程和多线程，并发编程的原因包括关注点分离和性能提升。C++11标准库扩展了线程管理、共享数据保护、线程间同步操作等功能。文章还提供了一个简单的C++多线程程序示例。"
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b7e4650d20f64946a9c0f52aa4249bae~noop.jpeg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b7e4650d20f64946a9c0f52aa4249bae~noop.jpeg
 poster:

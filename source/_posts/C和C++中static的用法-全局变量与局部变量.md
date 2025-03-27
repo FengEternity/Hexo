@@ -6,7 +6,7 @@ tags:
   - 基础知识
 categories:
   - cpp
-description: C和C++中static的用法-全局变量与局部变量
+description: "本文讨论了C和C++中static关键字的用法，主要涉及全局变量和局部变量。static修饰全局变量时，限制其作用域至文件级别；修饰局部变量时，延长其生命周期至程序结束。static控制变量的存储方式和可见性，解决了函数内部变量值保存至下次调用的问题，同时避免了全局变量破坏访问范围的缺点。在C++中，static还用于定义为整个类服务的数据对象，隐藏在类内部，不对外可见，保持类的封装性。"
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/8d292a50b52ad3f0d1a2f4e673b0a7e7fa338c3f203df-aaDHPb_fw1200.jpeg
 katex: true
 mathjax: true
