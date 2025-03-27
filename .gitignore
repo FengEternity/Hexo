@@ -7,3 +7,5 @@ VidHub*
 node_modules
 yarn.lock
 yarn.lock
+
+source/_posts/.obsidian/plugins/autoDescription
