@@ -7,7 +7,6 @@ description:
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 poster:
-  topic: 
   headline: FileTag 开发记录、源码分析
   caption: 
   color: 
@@ -15,7 +14,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: 
-topic: 计算机
 author: Montee
 references: 
 comments: 

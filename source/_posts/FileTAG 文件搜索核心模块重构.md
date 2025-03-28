@@ -12,7 +12,6 @@ description: FileTAG 文件搜索核心模块重构
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241102133113.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241102133113.png
 poster:
-  topic: 
   headline: FileTAG 文件搜索核心模块重构
   caption: 
   color: 
@@ -20,7 +19,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: 
-topic: 计算机
 author: Montee
 references: 
 comments: 

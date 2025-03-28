@@ -11,7 +11,6 @@ description: SQL 学习记录
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png
 poster:
-  topic: 
   headline: SQL 学习
   caption: 
   color: 
@@ -19,7 +18,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: true
-topic: 计算机
 author: Montee
 references: 
 comments: 

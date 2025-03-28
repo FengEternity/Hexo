@@ -10,7 +10,6 @@ description: "本文是《C++并发编程实战》的阅读笔记，介绍了并
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b7e4650d20f64946a9c0f52aa4249bae~noop.jpeg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b7e4650d20f64946a9c0f52aa4249bae~noop.jpeg
 poster:
-  topic: 
   headline: C++并发编程实战阅读笔记
   caption: 
   color: 
@@ -18,7 +17,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: true
-topic: 计算机
 author: Montee
 references: 
 comments: 

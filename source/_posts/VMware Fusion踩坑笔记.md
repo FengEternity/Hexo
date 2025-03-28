@@ -1,4 +1,4 @@
-%% ---
+---
 # 基本信息
 title: VMware Fusion 踩坑笔记（M1 Pro）
 date: 2024/06/17
@@ -9,7 +9,6 @@ description: VMware Fusion 踩坑笔记（M1 Pro）
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
   headline:  VS 去除程序运行时的控制台 # 必选
   caption:  # 可选
   color:  # 可选
@@ -19,7 +18,6 @@ mermaid:
 katex: true
 mathjax: 
 # 可选
-topic: 计算机 # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论
@@ -30,7 +28,7 @@ rightbar:
 h1: # 设置为 '' 隐藏标题
 type: tech # tech/story
 
---- %%
+---
 
 > 一个好用的 Mac 软件下载库：https://www.macat.vip
 

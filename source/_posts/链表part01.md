@@ -1,4 +1,4 @@
- ---
+---
 # 基本信息
 title: 链表part01
 date: 2024/05/31
@@ -19,7 +19,6 @@ mermaid:
 katex: true
 mathjax: 
 # 可选
-topic: 计算机 # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论

@@ -11,7 +11,6 @@ description: Qt实现关闭主窗口时也关闭其他所有窗口
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif
 poster:
-  topic: 
   headline: Qt实现关闭主窗口时也关闭其他所有窗口
   caption: 
   color: 
@@ -19,7 +18,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: true
-topic: 计算机
 author: Montee
 references: 
 comments: 

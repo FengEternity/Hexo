@@ -20,7 +20,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: true
-topic: 计算机
 author: Montee
 references: 
 comments: 

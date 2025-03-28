@@ -18,9 +18,7 @@ sticky: # 数字越大越靠前
 mermaid:
 katex: true
 mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
-author: Montee
+# 可
 references:
 comments: # 设置 false 禁止评论
 indexing: # 设置 false 避免被搜索

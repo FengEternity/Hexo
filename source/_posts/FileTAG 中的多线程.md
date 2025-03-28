@@ -11,7 +11,6 @@ description:
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 poster:
-  topic: 
   headline: FileTAG 中的多线程
   caption: 
   color: 
@@ -19,7 +18,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: true
-topic: 计算机
 author: Montee
 references: 
 comments: 

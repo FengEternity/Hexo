@@ -9,7 +9,6 @@ description: 用于记录此博客的更新日志；同时，程序员不可越�
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/thumbbig-1313894.webp
 banner: 
 poster: # 海报（可选，全图封面卡片）
-  topic:   # 可选
   headline: Blog 更新日志暨Hello World # 必选
   caption: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界 # 可选
   color: # 可选
@@ -19,7 +18,6 @@ mermaid:
 katex: true
 mathjax: 
 # 可选
-topic: Blog # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论

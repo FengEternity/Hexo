@@ -9,7 +9,6 @@ description: Qt 安装踩坑指南
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg
 poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
   headline:  Qt 安装踩坑指南 # 必选
   caption:  # 可选
   color:  # 可选
@@ -19,7 +18,6 @@ mermaid:
 katex: true
 mathjax: 
 # 可选
-topic: 计算机 # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论

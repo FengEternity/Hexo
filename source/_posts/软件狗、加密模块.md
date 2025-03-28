@@ -19,7 +19,6 @@ mermaid:
 katex: true
 mathjax: 
 # 可选
-topic: 计算机 # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论

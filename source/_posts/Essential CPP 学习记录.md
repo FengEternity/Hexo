@@ -10,7 +10,6 @@ description:
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png
 poster:
-  topic: 
   headline: Essential CPP 学习记录
   caption: 
   color: 
@@ -18,7 +17,6 @@ sticky:
 mermaid: 
 katex: true
 mathjax: 
-topic: 计算机
 author: Montee
 references: 
 comments: 

@@ -9,7 +9,6 @@ description: "本文是关于SVN使用笔记的总结，包括如何回滚代码
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif
 poster:  # 海报（可选，全图封面卡片）
-  topic: # 可选
   headline:  SVN 使用笔记 # 必选
   caption:  # 可选
   color:  # 可选
@@ -18,8 +17,6 @@ sticky: # 数字越大越靠前
 mermaid:
 katex: true
 mathjax: 
-# 可选
-topic: 计算机 # 专栏 id
 author: Montee
 references:
 comments: # 设置 false 禁止评论
