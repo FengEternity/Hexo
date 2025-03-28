@@ -5,7 +5,7 @@ tags:
   - cpp
   - 计算机
 categories:
-  - cpp
+  - C++
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png

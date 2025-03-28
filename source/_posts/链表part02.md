@@ -3,7 +3,7 @@
 title: 链表part02
 date: 2024/05/31
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
-categories: [cpp, 题解]
+categories: [算法]
 description: 链表part02
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/C8167B63922595B3E70BC8E35E68A4A5.png

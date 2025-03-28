@@ -3,7 +3,7 @@
 title: 解决 Qt 应用程序中的 EXC_BAD_ACCESS 异常：以删除中央窗口部件为例
 date: 2024/07/17
 tags: [cpp, 计算机, debug]
-categories: [debug, cpp]
+categories: [C++]
 description: 解决 Qt 应用程序中的 EXC_BAD_ACCESS 异常：以删除中央窗口部件为例
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg

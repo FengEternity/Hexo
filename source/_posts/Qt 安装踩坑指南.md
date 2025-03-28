@@ -3,7 +3,8 @@
 title: Qt 安装踩坑指南
 date: 2024/07/09
 tags: [cpp, QT]
-categories: [cpp, QT]
+categories:
+  - C++
 description: Qt 安装踩坑指南
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg

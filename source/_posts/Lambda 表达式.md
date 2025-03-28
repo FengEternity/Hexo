@@ -4,8 +4,8 @@ title: Lambda表达式
 date: 2025/03/12
 tags:
   - cpp
-categories: 
-  - cpp
+categories:
+  - C++
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif

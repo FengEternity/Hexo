@@ -6,7 +6,7 @@ tags:
   - 计算机
   - 日志
 categories:
-  - cpp
+  - C++
 description: Logger 类的实现与改进
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/41370f2e263ceb323994939fe9f9ae4e.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/41370f2e263ceb323994939fe9f9ae4e.jpg

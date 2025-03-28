@@ -7,7 +7,7 @@ tags:
   - debug
   - 多线程
 categories:
-  - debug
+  - C++
 description: 改进多线程管理：解决 activeTaskCount 计数问题
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/unnamed.jpg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/unnamed.jpg

@@ -3,8 +3,8 @@
 title: 数组part01
 date: 2024/05/28
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
-categories: [cpp, 题解]
-description: 代数组part01
+categories: [算法]
+description: 数组part01
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/407EA04208948845D522AAA07D1BB3F1.png
 banner: hhttps://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/407EA04208948845D522AAA07D1BB3F1.png

@@ -3,7 +3,7 @@
 title: 工作生涯修的第一个BUG
 date: 2024/07/09
 tags: [cpp, 计算机, debug]
-categories: [debug, cpp]
+categories: [C++]
 description: 工作生涯修的第一个BUG
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg

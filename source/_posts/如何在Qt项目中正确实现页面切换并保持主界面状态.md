@@ -6,8 +6,7 @@ tags:
   - 计算机
   - debug
 categories:
-  - debug
-  - cpp
+  - C++
 description: 如何在Qt项目中正确实现页面切换并保持主界面状态
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/bc9d1a2b4219f9c23dde4bc39fe3fbd8f6a4b13d_2_1380x776.jpeg
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/bc9d1a2b4219f9c23dde4bc39fe3fbd8f6a4b13d_2_1380x776.jpeg

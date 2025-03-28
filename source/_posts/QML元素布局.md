@@ -4,8 +4,8 @@ title: QML元素布局
 date: 2025/03/09
 tags:
   - cpp
-categories: 
-  - cpp
+categories:
+  - C++
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/v2-239662070cf2381e66413bc42f001a64_r.jpg.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/v2-239662070cf2381e66413bc42f001a64_r.jpg.png

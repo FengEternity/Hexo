@@ -3,6 +3,7 @@ title: Obsidian auto-description插件开发
 date: 2025/03/27
 tags:
   - 开源项目
+  - JS
 categories:
   - 开源项目
 description: 本文介绍了Obsidian的AutoDescription智能摘要插件，该插件利用Kimi AI的NLP技术自动生成Markdown文档摘要，并注入Front Matter元数据。技术架构包括摘要生成引擎和元数据注入系统，支持模块化API调用、动态Token计算和温度系数控制。插件还包含配置管理系统和动态界面渲染，提供响应式配置更新和输入验证功能。性能优化措施包括异步非阻塞调用、内存缓存机制和错误重试策略。应用场景包括技术写作工作流和知识库维护，插件还支持多模型和本地缓存策略扩展。项目代码已开源在GitHub。

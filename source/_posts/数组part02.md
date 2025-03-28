@@ -3,7 +3,7 @@
 title: 数组part02
 date: 2024/05/28
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
-categories: [cpp, 题解]
+categories: [算法]
 description: 代数组part02
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif

@@ -3,7 +3,7 @@
 title: SVN 使用笔记
 date: 2024/05/29
 tags: [计算机, SVN]
-categories: [版本控制工具]
+categories: [Git]
 description: "本文是关于SVN使用笔记的总结，包括如何回滚代码和解决冲突。回滚代码的步骤包括查看日志、撤销指定提交的更改，并重新提交。解决冲突时，需要理解冲突标记、分析冲突内容、决定保留哪部分内容，并编辑文件以解决冲突。文章还提供了SVN学习文档的链接，包括SVN回滚、菜鸟教程、TortoiseSVN使用教程等资源。"
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211518_nNfZE.gif

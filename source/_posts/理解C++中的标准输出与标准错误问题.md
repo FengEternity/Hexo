@@ -3,7 +3,7 @@
 title: 理解C++中的标准输出和标准错误输出问题
 date: 2024/07/11
 tags: [cpp, 计算机, debug]
-categories: [debug, cpp]
+categories: [C++]
 description: 理解C++中的标准输出和标准错误输出问题
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/202106111326352430.jpg

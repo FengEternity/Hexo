@@ -8,7 +8,6 @@ tags:
   - 数据库
 categories:
   - C++
-  - FileTAG
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
