@@ -73,8 +73,9 @@ timeline:
 
 linklist:
   layout: linklist
+  title: 开源项目
   columns: 1
   items:
-    - icon: '<svg...></svg>' # 或者 icons.yml 中设置的 icon 名称
+    - icon: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/logo.svg # 或者 icons.yml 中设置的 icon 名称
       title: IntelliSearch
       url: https://github.com/FengEternity/IntelliSearch
