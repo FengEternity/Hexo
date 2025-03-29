@@ -18,7 +18,7 @@ IntelliSearch 是一个基于AI大语言模型的对话式搜索引擎，旨在�
 
 一个用于 Obsidian 的插件，可以使用 Kimi AI 自动为文章生成摘要、类别、标签等信息，并将其添加到文章的 Front Matter 中。
 
-## 技术栈
+# 技术栈
 
 * C/C++ | Python …… 
 * Linux | Cmake | 深度学习 | LLM | 数据分析 | 图像处理 | Qt ……
