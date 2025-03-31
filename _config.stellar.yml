@@ -21,9 +21,9 @@ open_graph:
 ######## Sidebar ########
 # 左上角显示的 logo 区域，包含图标、大标题、副标题
 logo:
-  avatar: 'https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/monty_lee.png' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-  title: 'Montee' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  subtitle: '往后余生 | ALL of YOU' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
+  avatar: 'https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b_aa360d0e9f50e6378c4d0d9fafbe9aa5.jpg' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  title: 'Forsertee' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  subtitle: '温良慎独 | 自由从容' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
 # 侧边栏主功能导航菜单
 menubar:
@@ -122,7 +122,7 @@ article:
   # 文章类型，决定布局风格，可以在 front-matter/topic/wiki 中覆盖此参数
   type: tech # tech: 默认技术类文章, story: 图文类文章，文字和段落间增距大
   # 缩进两个文字宽度，适合文字类博客，可以在 front-matter/topic/wiki 中覆盖此参数
-  indent: # true / false
+  indent: true # true / false
   # 如果没有指定封面，是否根据 tags 作为关键词搜索封面图片？
   auto_cover: true # search from https://source.unsplash.com/
   # 封面图宽高比
@@ -279,7 +279,7 @@ footer:
     
     theme:
       icon: default:theme
-      onclick: https://www.montylee.cc
+      onclick: https://www.montylee.cn
   sitemap:
     '博客':
       - '[近期](/)'
@@ -581,7 +581,7 @@ style:
   leftbar:
     # 可以设置：纯色/渐变色/图片作为背景
     # background: var(--leftbar-bg)
-    background-image: url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.13/image/sidebar-bg1@small.jpg)
+    background-image: #  url(https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/2332f23507cda82458edd3e4de5acbc5bac632ef1b139-MmjdkO_fw1200.jpeg)
     blur-px: 100px
     blur-bg: var(--alpha60)
   paginator:

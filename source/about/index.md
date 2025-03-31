@@ -2,17 +2,15 @@
 menu_id: about
 title: 关于
 ---
-
 # 自我介绍
 
-热爱 Coding，持续学习…… 
-
+热爱 Coding，持续学习……
 
 # 开源项目
+
 ## [IntelliSearch](https://github.com/FengEternity/IntelliSearch)
 
 IntelliSearch 是一个基于AI大语言模型的对话式搜索引擎，旨在通过自然语言交互提升用户的信息检索体验。项目结合了大语言模型、搜索引擎和数据管理技术，开发了一个支持跨平台的智能搜索系统。通过创新的混合检索架构和检索增强生成（RAG）技术，IntelliSearch 能够提供更精准、更智能的搜索结果。
-
 
 ## [autoDescription](https://github.com/FengEternity/autoDescription)
 
@@ -20,14 +18,16 @@ IntelliSearch 是一个基于AI大语言模型的对话式搜索引擎，旨在�
 
 # 技术栈
 
-* C/C++ | Python …… 
+* C/C++ | Python ……
 * Linux | Cmake | LLM | Qt | 数据分析 | 图像处理 | 深度学习 | ……
-$ 多线程编程 | 网络编程 | ……
+* 多线程编程 | 网络编程 | ……
 
 # 碎碎念
 
 {% timeline %}
+
 <!-- node 2025 年 3 月 29 日 -->
+
 拿到春招第一个offer，重新开始写博客了，删除了之前如同简历一样的自我介绍。
 
 <!-- node 2024 年 7 月 2 日 -->
@@ -50,6 +50,7 @@ $ 多线程编程 | 网络编程 | ……
 * 岗位：软件开发，具体应该是SLAM点云数据相关
 
 <!-- node 2024 年 5 月 9 日 -->
+
 下午中海达面试，有点紧张……
 
 {% endtimeline %}
