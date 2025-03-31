@@ -124,7 +124,7 @@ article:
   # 缩进两个文字宽度，适合文字类博客，可以在 front-matter/topic/wiki 中覆盖此参数
   indent: # true / false
   # 如果没有指定封面，是否根据 tags 作为关键词搜索封面图片？
-  auto_cover: tree # search from https://source.unsplash.com/
+  auto_cover: true # search from https://source.unsplash.com/
   # 封面图宽高比
   cover_ratio: 2.4
   # 如果没有指定横幅，是否根据 tags 作为关键词搜索横幅图片？
