@@ -7,7 +7,7 @@ tags:
 categories:
   - 开源项目
 description: 本文介绍了Obsidian的AutoDescription智能摘要插件，该插件利用Kimi AI的NLP技术自动生成Markdown文档摘要，并注入Front Matter元数据。技术架构包括摘要生成引擎和元数据注入系统，支持模块化API调用、动态Token计算和温度系数控制。插件还包含配置管理系统和动态界面渲染，提供响应式配置更新和输入验证功能。性能优化措施包括异步非阻塞调用、内存缓存机制和错误重试策略。应用场景包括技术写作工作流和知识库维护，插件还支持多模型和本地缓存策略扩展。项目代码已开源在GitHub。
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/%E5%85%BD%E8%80%B3-%E7%8C%AB%E8%80%B3%E7%BE%8E%E5%A5%B3-%E7%9F%AD%E5%8F%91-%E7%8C%AB%E5%B0%BE%E5%B7%B4-4k%E5%8A%A8%E6%BC%AB%E5%A3%81%E7%BA%B8-3840_2160.jpg
+cover: https://api.seaya.link/web
 sticky: 
 mermaid: 
 katex: true
