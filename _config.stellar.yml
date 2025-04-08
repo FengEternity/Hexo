@@ -21,6 +21,8 @@ head:
   meta:
     - name: "google-site-verification"
       content: "google3c717581e81205ca"
+  script:
+    - '<script defer src="/_vercel/insights/script.js"></script>'
 
 
 ######## Sidebar ########
