@@ -27,7 +27,7 @@ logo:
 
 # 侧边栏主功能导航菜单
 menubar:
-  columns: 3 # 一行多少个
+  columns: 4 # 一行多少个
   items: # 可按照自己需求增加，符合以下格式即可
     # id: 页面中高亮的 menu_id 
     # theme: 高亮时的颜色，仅 svg 中 fill="currentColor" 时有效
@@ -55,6 +55,11 @@ menubar:
       title: 友链
       url: /friends/
 
+    - id: Github
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+      title: Github
+      url: https://github.com/FengEternity
+
 
 ######## Main ########
 # 站点主结构树
@@ -62,8 +67,8 @@ site_tree:
   # -- 列表类页面 -- #
   # 主页配置
   home:
-    leftbar: welcome, recent
-    rightbar: tagcloud
+    leftbar: recent
+    rightbar: welcome, tagcloud
   # 博客列表页配置
   index_blog:
     base_dir: blog # 只影响自动生成的页面路径
@@ -259,13 +264,13 @@ comments:
 
 ######## Footer ########
 footer:
-  social:
-    github:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
-      url: https://github.com/FengEternity
-    love:
-      icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
-      url: https://fengeternity.github.io/love/index.html
+  # social:
+  #   github:
+  #     icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+  #     url: https://github.com/FengEternity
+  #   love:
+  #     icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
+  #     url: https://fengeternity.github.io/love/index.html
 
     # music:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
@@ -277,9 +282,11 @@ footer:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/942ebbf1a4b91.svg"/>'
     #   url: /about/#comments
     
-    theme:
-      icon: default:theme
-      onclick: https://www.montylee.cn
+    # theme:
+    #   icon: default:theme
+    #   onclick: https://www.montylee.cn
+
+
   sitemap:
     '博客':
       - '[近期](/)'
