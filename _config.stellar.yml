@@ -308,8 +308,7 @@ footer:
     © 2024 Forsertee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
     <div style="line-height: 0.8em;">
       <span>本站已颠沛流离 <span id="site-runtime"></span></span>
-      <span id="busuanzi_container_site_pv">| 总访问量 <span id="busuanzi_value_site_pv"></span> 次</span>
-      <span id="busuanzi_container_page_pv">| 该页面访问量 <span id="busuanzi_value_page_pv"></span> 次</span>
+      <span id="busuanzi_container_site_pv">| 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
     </div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script>
