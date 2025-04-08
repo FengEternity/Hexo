@@ -7,12 +7,10 @@ tags:
 categories:
   - 读书笔记
 description: 
-cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/images.jpeg?imageSlim
+cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/images-2.jpeg?imageSlim
 katex: true
 mathjax: true
 author: Montee
 type: tech
 topic: read
 ---
-
-
