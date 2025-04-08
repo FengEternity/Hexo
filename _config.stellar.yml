@@ -303,13 +303,9 @@ footer:
       - '[关于本站](https://www.montylee.cn/about/)'
       - '[GitHub](https://github.com/FengEternity)'
   content: |
-    © 2024 Montee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
-      <div align="center">
-      ![Static Badge](https://img.shields.io/badge/BLOG-Mentee-red?style=social&link=https%3A%2F%2Fwww.montylee.cn)
-      </div>
-
-
-
+    © 2024 Forsertee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
+    <div style="line-height: 0.8em;"><span id="busuanzi_container_site_pv">你是本站的第 <span id="busuanzi_value_site_pv"></span> 位访客</span></div>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 ######## Tag Plugins ########
 tag_plugins:
