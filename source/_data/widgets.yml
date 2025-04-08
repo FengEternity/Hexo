@@ -84,5 +84,5 @@ welcome:
   layout: markdown
   title: Halo ~~~
   content: |
-    这是一个曾立志学 AI，却尽缘巧合走上 Linux 、 C++ 之路的程序员博客
+    每一行代码，都值得被尊重
   src: # 可以设置外部 md 文件链接
