@@ -17,6 +17,11 @@ open_graph:
   enable: true
   twitter_id: # for open_graph meta
 
+head:
+  meta:
+    - name: "google-site-verification"
+      content: "google3c717581e81205ca"
+
 
 ######## Sidebar ########
 # 左上角显示的 logo 区域，包含图标、大标题、副标题
@@ -627,3 +632,6 @@ encrypt: # hexo-blog-encrypt
   - {name: private, password: 020202}
   wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。
   wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。
+
+skip_render:
+  - google3c717581e81205ca.html
