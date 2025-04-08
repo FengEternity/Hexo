@@ -5,6 +5,7 @@ tags:
   - 终端
   - Shell
   - PTY
+  - 数据备份
 categories:
   - linux
 cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/resource-8526a92ba76ef090a62109a6-76851.jpg?imageSlim
@@ -12,7 +13,7 @@ katex: true
 mathjax: true
 author: Montee
 type: tech
-description: 本文讲述了作者因混淆终端、终端模拟器和Shell的概念，错误地将Kitty终端模拟器设置为默认Shell，导致问题。文章解释了终端模拟器和伪终端（PTY）的区别，并提供了相关命令和解决方案。作者反思了对概念理解的重要性。
+description: 本文讲述了作者因混淆终端、终端模拟器和Shell的概念，错误地将Kitty终端模拟器设置为默认Shell，导致问题。文章解释了终端模拟器和伪终端（PTY）的区别，并提供了相关命令和解决方案。作者反思了对概念理解的重要性，并强调了正确与AI交流、数据备份和交流的重要性。
 ---
 # 起因
 
@@ -95,8 +96,46 @@ echo "Test" > /dev/ttys000
 位于操作系统内核与用户之间的命令解释器，负责解析用户输入的命令并调用内核执行
 
 > [计算机教育缺失的一课 第一讲 课程概览与shell](https://www.bilibili.com/video/BV1uc411N7eK/?spm_id_from=333.788.recommend_more_video.-1&vd_source=f30eba35d0a8915376778596dfd73224)
+
+## chsh
+
+> [Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
+> 可以使用 `man chsh` 查看命令文档
+
+chsh 命令用于更改使用者 shell 设定，在命令行输入 `chsh` 后会进入下面的界面
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250408230123723.png?imageSlim)
+
+当然也可以使用 -s 参数改变当前的 shell 设置：
+```bash
+# chsh -s /bin/csh //改变当前设置为 /bin/csh
+Changing shell for root.
+Shell not changed.
+```
+
+所以我这个蠢蛋把终端模拟器当作 `shell` 进行设置了……
 # 问题的解决
 
+## 个人尝试
+
+
+
+## 苹果售后
+苹果
+
+## LUG 群友
 
 
 # 一点思考
+## 如何正确地与 AI 交流
+
+
+
+## 数据备份的重要性
+
+电脑重装系统对我最大的损失就是**毕业设计的相关文档全都没了**，虽然通过 WPS 挽回了一些，但是更多的文件是再也找不到了。
+
+顺便感谢一下 Linus 老爷子发明的 `git`，相关的代码都及时上传 `Github`，要不然真的可以原地去世了。
+
+其实在很早之前就听说过重要数据要三地备份，云上怎么说也是要保存一份的。
+
+## 交流的重要性
