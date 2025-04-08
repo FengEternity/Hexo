@@ -84,5 +84,5 @@ welcome:
   layout: markdown
   title: Halo ~~~
   content: |
-    每一行代码，都值得被尊重
+    一名即将入职的 Linux 驱动开发工程师，可以通过<a href="mailto:forsertee@foxmail.com">Email</a>  / <a href="https://github.com/FengEternity">GitHub</a>找到我
   src: # 可以设置外部 md 文件链接
