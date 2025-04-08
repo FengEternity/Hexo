@@ -306,8 +306,30 @@ footer:
       - '[GitHub](https://github.com/FengEternity)'
   content: |
     © 2024 Forsertee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
-    <div style="line-height: 0.8em;"><span id="busuanzi_container_site_pv">你是本站的第 <span id="busuanzi_value_site_pv"></span> 位访客</span></div>
+    <div style="line-height: 0.8em;">
+      <span>本站已颠沛流离 <span id="site-runtime"></span></span>
+      <span id="busuanzi_container_site_pv">| 总访问量 <span id="busuanzi_value_site_pv"></span> 次</span>
+      <span id="busuanzi_container_page_pv">| 该页面访问量 <span id="busuanzi_value_page_pv"></span> 次</span>
+    </div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+      function updateSiteRuntime() {
+          const startTime = new Date('2024-05-07').getTime(); // 将此处的日期改为您的网站开始运行的时间
+          const currentTime = new Date().getTime();
+          const runTime = currentTime - startTime;
+          
+          const days = Math.floor(runTime / (24 * 60 * 60 * 1000));
+          const hours = Math.floor((runTime % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+          const minutes = Math.floor((runTime % (60 * 60 * 1000)) / (60 * 1000));
+          const seconds = Math.floor((runTime % (60 * 1000)) / 1000);
+          
+          document.getElementById('site-runtime').innerHTML = 
+              days + "天" + hours + "小时" + minutes + "分" + seconds + "秒";
+      }
+      
+      setInterval(updateSiteRuntime, 1000);
+      updateSiteRuntime();
+    </script>
 
 ######## Tag Plugins ########
 tag_plugins:
