@@ -98,6 +98,7 @@ getchar()返回值是 int 类型。此外，当输入流结束时，`getchar()`�
 
 
 ## Q1-20
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250409203212845.png?imageSlim)
 
 ```c
 #include<stdio.h>
