@@ -6,7 +6,7 @@ tags: [Blog]
 categories: [Blog]
 description: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界
 # 封面
-cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/thumbbig-1313894.webp
+cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 
 banner: 
 poster: # 海报（可选，全图封面卡片）
   headline: Blog 更新日志暨Hello World # 必选
@@ -44,6 +44,11 @@ type: story # tech/story
 
 {% timeline %}
 
+<!-- node 2025 年 4 月 9 日 -->
+* 谷歌收录，并提交站点地图
+* 实现RSS订阅
+
+
 <!-- node 2024 年 6 月 7 日 -->
 评论功能设置成功
 
@@ -60,23 +65,20 @@ type: story # tech/story
 
 {% quot 3. 待完善 %}
 
-- [ ] **footer 部分的倒计时功能**
+- [x] **footer 部分的倒计时功能**
 
   - [x] ~~初步实现功能~~
 
-  - [ ] 美化，参见 [cayzlh](https://www.cayzlh.com)  
+  - [x] 美化，参见 [cayzlh](https://www.cayzlh.com)  
 
-    ![](../images/footertime.png)
-
-
-- [ ] **右侧栏公告及索引**
+- [x] **右侧栏公告及索引**
 
   {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedrightsides.png width:200px padding:16px bg:white %}
 
 
-- [ ] **RSS 订阅**
-- [ ] 博客文章密码验证阅读
-- [ ] [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
+- [x] **RSS 订阅**
+- [x] 博客文章密码验证阅读
+- [x] [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
 
 {% quot 4. 已完成 %}
 
@@ -85,28 +87,16 @@ type: story # tech/story
 
 
     - [x] ~~暂时使用 [imgtp](https://imgtp.com) 这个在线的免费图床~~
-
-
-
     - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
-
-
-
-    - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~ 
-
-
-
+    - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~
     - [x] PicGo 图床插件设置
 
 - [x] **友链和关于页面**
-
   - [x] ~~尝试动态友链失败，最终还是选择了静态的友链~~
-
+  
 - [x] 评论插件配置
-
-
   - [x] 使用 [giscus](https://giscus.app/zh-CN) 作为评论系统
-
+  
 - [x] 文章页面发布和更新时间有问题
 
   {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}

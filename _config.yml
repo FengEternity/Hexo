@@ -123,3 +123,14 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# RSS Feed
+feed:
+  type: atom
+  path: rss/atom.xml  # 这里的路径要和主题配置中的 /rss/ 保持一致
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
