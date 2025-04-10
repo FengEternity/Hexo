@@ -20,3 +20,8 @@ topic: cpl
 
 ## 2.2. 数据类型及长度
 ![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250409213115026.png?imageSlim)
+在基本数据类型的前面可以加一下限定符，如 `short` `long` 如 `short int sh;`,也可以简写为 `short sh;` 
+
+`int` 通常代表机器中整数的自然长度。各种编译器可能根据硬件特点选择合适的长度，但是，`short` 类型通常且至少为 16 位，`long` 类型通常且至少为 32 位，并且 `short` 不得长于 `int`，`long` 不得短于 `int`。
+
+类型限定符 `signed` 于 `unsigned` 可用于限定 `char` 类型或任何整型。
