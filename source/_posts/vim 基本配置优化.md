@@ -12,6 +12,9 @@ author: Forsertee
 type: tech
 description: 本文介绍了作者的Vim配置，包括启动语法高亮、显示当前指令和模式等，旨在提高C语言程序设计的效率和可读性。同时，文章还介绍了如何安装插件管理器、配置NERDTree和Tagbar插件，以增强Vim的文件浏览和代码结构查看功能。
 ---
+> 注：由于开始使用 [lazyvim](https://lazyvim-github-io.vercel.app/zh-Hans/), 后续将不会继续优化该文章配置
+
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250411150400029.png?imageSlim)
 
 该文章为个人的 vim 配置，持续优化中。
 
