@@ -76,7 +76,7 @@ site_tree:
   # 主页配置
   home:
     leftbar: recent
-    rightbar: welcome, tagcloud
+    rightbar: welcome, tagcloud, timeline
   # 博客列表页配置
   index_blog:
     base_dir: blog # 只影响自动生成的页面路径
