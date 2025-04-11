@@ -42,7 +42,6 @@ set wrap            " 自动折行，即太长的行分成几行显示。
 
 ![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250410225706043.png?imageSlim)
 
-
 # 插件
 
 ## 安装
