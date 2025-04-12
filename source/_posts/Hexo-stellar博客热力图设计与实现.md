@@ -10,6 +10,7 @@ tags:
 categories:
   - Blog
 description: 本文介绍了在Hexo博客中使用ECharts实现热力图的方法，包括容器初始化、数据处理、主题配置和ECharts配置。解决了主题切换适配、提示框样式重叠和响应式适配问题，并提供了性能、交互和样式优化建议，增强了博客的丰富性和个性化。
+cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412233148881.png?imageSlim
 ---
 
 ## 前言
@@ -30,6 +31,10 @@ description: 本文介绍了在Hexo博客中使用ECharts实现热力图的方�
 - CSS：样式调整和主题适配
 
 ## 实现思路
+
+最终实现的效果如图
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412233148881.png?imageSlim)
+
 
 ### 1. 容器初始化
 
