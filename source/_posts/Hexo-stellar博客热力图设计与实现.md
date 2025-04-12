@@ -1,17 +1,27 @@
 ---
 title: Hexo博客热力图设计与实现
-date: 2024-03-21
-tags: 
+date: 2025-4-12
+tags:
   - Hexo
   - JavaScript
   - ECharts
-categories: 
+  - 热力图
   - 前端开发
+categories:
+  - Blog
+description: "本文介绍了在Hexo博客中使用ECharts实现热力图的方法，包括容器初始化、数据处理、主题配置和ECharts配置。解决了主题切换适配、提示框样式重叠和响应式适配问题，并提供了性能、交互和样式优化建议，增强了博客的丰富性和个性化。"
 ---
 
 ## 前言
 
-在博客系统中，热力图（Heatmap）是一种直观展示文章发布频率的可视化工具。本文将详细介绍如何使用 ECharts 在 Hexo 博客中实现一个类似 GitHub Contributions 的热力图功能，包括开发过程中遇到的问题及其解决方案。
+事情的起因看到了下面这位大佬的博客，觉的很好看，就想着在自己的归档页面也实现一个热力图的组件。
+
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412230613464.png?imageSlim)
+
+在 GitHub 也找到了类似的开源项目——[hexo-graph](https://github.com/codepzj/hexo-graph)，效果如下图：
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412230932965.png?imageSlim)
+
+巧合的是，这位佬使用的主题还是和我一样的，但是我并没有在他的主题仓库里找到相关的代码……遂放弃，还是想着自己写一个。
 
 ## 技术栈
 
