@@ -1,0 +1,266 @@
+{
+  "name": "Hexo-stellar Theme Development Rules",
+  "version": "1.0.0",
+  "description": "Rules and guidelines for Hexo-stellar theme development",
+  "rules": {
+    "directory_structure": {
+      "description": "主题目录结构规范",
+      "rules": [
+        {
+          "path": "layout/",
+          "description": "布局文件目录",
+          "subdirectories": [
+            {
+              "path": "_partial/",
+              "description": "局部模板目录",
+              "required": true
+            },
+            {
+              "path": "_plugins/",
+              "description": "插件模板目录",
+              "required": false
+            }
+          ]
+        },
+        {
+          "path": "source/",
+          "description": "静态资源目录",
+          "subdirectories": [
+            {
+              "path": "css/",
+              "description": "样式文件目录",
+              "required": true
+            },
+            {
+              "path": "js/",
+              "description": "JavaScript 文件目录",
+              "required": true
+            }
+          ]
+        },
+        {
+          "path": "languages/",
+          "description": "多语言支持目录",
+          "required": true
+        },
+        {
+          "path": "_data/",
+          "description": "数据文件目录",
+          "required": true
+        }
+      ]
+    },
+    "file_naming": {
+      "description": "文件命名规范",
+      "rules": [
+        {
+          "pattern": "*.ejs",
+          "description": "模板文件使用小写字母，单词间用下划线连接",
+          "example": "layout.ejs, index.ejs, post.ejs"
+        },
+        {
+          "pattern": "*.styl",
+          "description": "样式文件使用小写字母，单词间用下划线连接",
+          "example": "main.styl, _custom.styl"
+        },
+        {
+          "pattern": "*.js",
+          "description": "JavaScript 文件使用小写字母，单词间用下划线连接",
+          "example": "main.js, search.js"
+        }
+      ]
+    },
+    "code_style": {
+      "description": "代码风格规范",
+      "rules": [
+        {
+          "type": "EJS",
+          "description": "EJS 模板代码规范",
+          "rules": [
+            "使用 2 个空格缩进",
+            "模板变量使用 <%= %> 或 <%- %> 包裹",
+            "逻辑代码使用 <% %> 包裹",
+            "注释使用 <%# %> 包裹"
+          ]
+        },
+        {
+          "type": "Stylus",
+          "description": "Stylus 样式代码规范",
+          "rules": [
+            "使用 2 个空格缩进",
+            "使用 BEM 命名规范",
+            "变量名使用小写字母，单词间用连字符连接",
+            "选择器嵌套不超过 3 层"
+          ]
+        },
+        {
+          "type": "JavaScript",
+          "description": "JavaScript 代码规范",
+          "rules": [
+            "使用 2 个空格缩进",
+            "使用 ES6+ 语法",
+            "变量使用驼峰命名法",
+            "常量使用大写字母，单词间用下划线连接"
+          ]
+        }
+      ]
+    },
+    "configuration": {
+      "description": "配置规范",
+      "rules": [
+        {
+          "file": "_config.yml",
+          "description": "主题配置文件规范",
+          "rules": [
+            "使用 YAML 格式",
+            "配置项使用小写字母，单词间用下划线连接",
+            "保持配置项的结构清晰",
+            "添加必要的注释说明"
+          ]
+        }
+      ]
+    },
+    "development_workflow": {
+      "description": "开发流程规范",
+      "rules": [
+        {
+          "step": "自定义开发",
+          "description": "自定义开发流程",
+          "rules": [
+            "先修改 _config.yml 配置",
+            "在 _custom.styl 中添加自定义样式",
+            "在 source/js/ 中添加新脚本",
+            "在 layout/_partial/ 中添加新模板"
+          ]
+        },
+        {
+          "step": "功能扩展",
+          "description": "功能扩展流程",
+          "rules": [
+            "规划功能需求",
+            "设计实现方案",
+            "开发必要文件",
+            "配置功能选项"
+          ]
+        },
+        {
+          "step": "主题升级",
+          "description": "主题升级流程",
+          "rules": [
+            "备份自定义修改",
+            "更新主题文件",
+            "合并自定义修改",
+            "测试验证功能"
+          ]
+        }
+      ]
+    },
+    "best_practices": {
+      "description": "最佳实践",
+      "rules": [
+        {
+          "category": "目录结构",
+          "description": "保持目录结构清晰",
+          "rules": [
+            "遵循主题的目录组织方式",
+            "合理组织自定义文件"
+          ]
+        },
+        {
+          "category": "命名规范",
+          "description": "遵循命名规范",
+          "rules": [
+            "使用有意义的文件名",
+            "保持命名风格一致"
+          ]
+        },
+        {
+          "category": "模块化",
+          "description": "使用模块化方式",
+          "rules": [
+            "将功能拆分为独立模块",
+            "保持代码的可复用性"
+          ]
+        },
+        {
+          "category": "多语言",
+          "description": "注意多语言支持",
+          "rules": [
+            "使用主题提供的多语言机制",
+            "保持翻译的完整性"
+          ]
+        },
+        {
+          "category": "响应式",
+          "description": "确保响应式设计",
+          "rules": [
+            "测试不同设备的显示效果",
+            "优化移动端体验"
+          ]
+        }
+      ]
+    },
+    "debugging": {
+      "description": "调试规范",
+      "rules": [
+        {
+          "tool": "浏览器开发者工具",
+          "description": "使用浏览器开发者工具调试",
+          "rules": [
+            "使用 Elements 面板检查 DOM 结构",
+            "使用 Console 面板查看错误信息",
+            "使用 Network 面板分析资源加载"
+          ]
+        },
+        {
+          "tool": "主题调试模式",
+          "description": "使用主题调试模式",
+          "rules": [
+            "启用主题的调试选项",
+            "查看详细的日志输出"
+          ]
+        },
+        {
+          "tool": "代码检查",
+          "description": "使用代码检查工具",
+          "rules": [
+            "使用 ESLint 检查 JavaScript 代码",
+            "使用 Stylelint 检查样式代码"
+          ]
+        }
+      ]
+    },
+    "performance": {
+      "description": "性能优化规范",
+      "rules": [
+        {
+          "category": "资源优化",
+          "description": "优化静态资源",
+          "rules": [
+            "压缩 CSS 和 JavaScript 文件",
+            "优化图片资源",
+            "使用 CDN 加速静态资源"
+          ]
+        },
+        {
+          "category": "代码优化",
+          "description": "优化代码性能",
+          "rules": [
+            "减少不必要的 DOM 操作",
+            "优化事件处理函数",
+            "使用缓存机制"
+          ]
+        },
+        {
+          "category": "加载优化",
+          "description": "优化页面加载",
+          "rules": [
+            "实现资源的延迟加载",
+            "优化首屏加载速度",
+            "使用预加载技术"
+          ]
+        }
+      ]
+    }
+  }
+} 
