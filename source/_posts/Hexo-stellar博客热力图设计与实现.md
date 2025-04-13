@@ -10,7 +10,7 @@ tags:
 categories:
   - Blog
 description: 本文介绍了在Hexo博客中使用ECharts实现热力图的方法，包括容器初始化、数据处理、主题配置和ECharts配置。解决了主题切换适配、提示框样式重叠和响应式适配问题，并提供了性能、交互和样式优化建议，增强了博客的丰富性和个性化。
-cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412233148881.png?imageSlim
+cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250413140902265.png?imageSlim
 ---
 
 ## 前言
@@ -33,8 +33,15 @@ cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/2025041223
 ## 实现思路
 
 最终实现的效果如图
-![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250412233148881.png?imageSlim)
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250413140902265.png?imageSlim)
 
+
+具体的实现代码可以参考仓库的提交源码：[feat: 添加热力图功能及相关样式](https://github.com/FengEternity/stellar/commit/2a478f22bdf7b93d5a0c2561a41c080ec0d17905)
+
+- 在配置文件中添加ECharts和热力图服务的链接。 
+- 在归档页面中集成热力图展示，显示文章发布情况。 
+- 新增热力图生成器，提供API接口返回文章数据。 
+- 添加热力图的样式，优化展示效果。
 
 ### 1. 容器初始化
 
@@ -182,24 +189,6 @@ tooltip: {
 ```javascript
 window.addEventListener('resize', () => myChart.resize());
 ```
-
-## 优化建议
-
-1. **性能优化**：
-   - 使用防抖处理窗口resize事件
-   - 优化数据处理逻辑，减少不必要的遍历
-
-2. **交互优化**：
-   - 添加点击事件，直接跳转到对应文章
-   - 优化提示框显示效果
-
-3. **样式优化**：
-   - 自定义主题颜色配置
-   - 支持更多的自定义选项
-
-## 总结
-
-通过 ECharts 实现的博客热力图不仅展示了文章发布的频率，还提供了良好的交互体验。在开发过程中，主要解决了主题切换、样式适配和响应式布局等问题。这个功能的实现让博客更加丰富和个性化，为读者提供了更好的浏览体验。
 
 ## 参考资料
 
