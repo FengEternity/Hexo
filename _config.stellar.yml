@@ -41,32 +41,32 @@ menubar:
     # icon: 支持 svg/img 标签，可以定义在 icons.yml 文件中，也支持外部图片的 URL
     # title: 标题
     # url: 点击跳转到哪，支持相对路径和绝对路径
-    - id: post
-      theme: '#1BCDFC'
-      icon: solar:documents-bold-duotone
-      title: 博客
-      url: /
+    # - id: post
+    # theme: '#1BCDFC'
+    # icon: solar:documents-bold-duotone
+    # title: 博客
+    # url: /
     # - id: wiki
     #   theme: '#3DC550'
     #   icon: solar:notebook-bookmark-bold-duotone
     #   title: 文档
     #   url: /wiki/
-    - id: about
-      theme: '#FA6400'
-      icon: solar:planet-bold-duotone
-      title: 关于
-      url: /about/
-    - id: friends
-      theme: '#F44336'
-      icon: solar:chat-square-like-bold-duotone
-      title: 友链
-      url: /friends/
+    # - id: about
+    #   theme: '#FA6400'
+    #   icon: solar:planet-bold-duotone
+    #   title: 关于
+    #   url: /about/
+    # - id: friends
+    #   theme: '#F44336'
+    #   icon: solar:chat-square-like-bold-duotone
+    #   title: 友链
+    #   url: /friends/
 
-    - id: rss
-      theme: '#F44336'
-      icon: solar:rss-bold-duotone
-      title: 订阅
-      url: /rss/atom.xml  # 确保路径与 hexo-generator-feed 生成的文件路径一致
+    # - id: rss
+    #   theme: '#F44336'
+    #   icon: solar:rss-bold-duotone
+    #   title: 订阅
+    #   url: /rss/atom.xml  # 确保路径与 hexo-generator-feed 生成的文件路径一致
   
 
 ######## Main ########
@@ -85,7 +85,10 @@ site_tree:
     rightbar: tagcloud, catelinks
     nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...
       # '朋友文章': /friends/rss/
+      '关于': /about/
       '开往': https://www.travellings.cn/go.html
+
+
   # 博客专栏列表页配置
   index_topic:
     base_dir: topic # 只影响自动生成的页面路径
@@ -98,6 +101,8 @@ site_tree:
     rightbar: 
     nav_tabs:
       # 'more': https://github.com/xaoxuu
+
+
   # -- 内容类页面 -- #
   # 博客文章内页配置
   post:
@@ -273,13 +278,24 @@ comments:
 
 ######## Footer ########
 footer:
-  # social:
-  #   github:
-  #     icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
-  #     url: https://github.com/FengEternity
-  #   love:
-  #     icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
-  #     url: https://fengeternity.github.io/love/index.html
+  social:
+    github:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+      url: https://github.com/FengEternity
+
+    rss:
+      icon: '<img src="https://img.icons8.com/forma-light/24/rss.png"/>'
+      url: /rss/atom.xml
+
+    email:
+      icon: '<img src="https://img.icons8.com/puffy/32/new-post.png"/>'
+      url: mailto:forsertee@foxmail.com
+
+    love:
+      icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
+      url: https://fengeternity.github.io/love/index.html
+
+
 
     # music:
     #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/3845874.svg"/>'
