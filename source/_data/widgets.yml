@@ -104,6 +104,10 @@ linklist:
       title: IntelliSearch
       url: https://github.com/FengEternity/IntelliSearch
 
+catelinks:
+  layout: catelinklist
+  title: 文章分类
+
 welcome:
   layout: markdown
   title: Halo ~~~
