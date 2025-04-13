@@ -3,13 +3,11 @@ menu_id: about
 title: 关于
 ---
 # 自我介绍
-
-> 苏格拉底：我唯一知道的就是我一无所知
+苏格拉底：我唯一知道的就是我一无所知
 
 真正的智者在面对知识时，应该是保持敬畏于谨慎的，而不是浅尝辄止就好为人师。
 
 # 开源项目
-
 ## IntelliSearch
 
 > 项目链接：https://github.com/FengEternity/IntelliSearch
