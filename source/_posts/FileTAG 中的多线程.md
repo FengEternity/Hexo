@@ -1,8 +1,11 @@
 ---
 title: FileTAG 中的多线程
-date: 2024-04-07
-tags: [FileTAG, 多线程, C++]
-categories: 项目开发
+date: 2025-04-07
+tags:
+  - FileTAG
+  - 多线程
+categories:
+  - 项目开发
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
