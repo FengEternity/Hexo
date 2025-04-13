@@ -5,8 +5,7 @@ tags:
   - cpp
   - 计算机
   - 文件搜索
-categories:
-  - C++
+categories: [项目开发]
 description: FileTAG 文件搜索核心模块重构
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241102133113.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241102133113.png

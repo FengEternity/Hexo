@@ -3,7 +3,7 @@
 title: VS 去除程序运行时的控制台
 date: 2024/05/29
 tags: [cpp, 计算机, debug]
-categories: [C++]
+categories: [技术学习]
 description: VS 去除程序运行时的控制台
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/006BFMdqly1gfcskjuy1ij31kw13gjz0.jpg

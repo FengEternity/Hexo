@@ -1,14 +1,8 @@
 ---
 title: Hexo-stellar博客热力图设计与实现
-date: 2025-4-12
-tags:
-  - Hexo
-  - JavaScript
-  - ECharts
-  - 热力图
-  - 前端开发
-categories:
-  - Blog
+date: 2025-04-13
+tags: [Hexo, 主题开发, 热力图]
+categories: 博客优化
 description: 本文介绍了在Hexo博客中使用ECharts实现热力图的方法，包括容器初始化、数据处理、主题配置和ECharts配置。解决了主题切换适配、提示框样式重叠和响应式适配问题，并提供了性能、交互和样式优化建议，增强了博客的丰富性和个性化。
 cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250413140902265.png?imageSlim
 ---

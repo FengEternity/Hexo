@@ -5,8 +5,7 @@ tags:
   - cpp
   - 计算机
   - debug
-categories:
-  - C++
+categories: [技术学习]
 description: cin 与 getline 暨 string 容器与IO库
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241020153002.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241020153002.png

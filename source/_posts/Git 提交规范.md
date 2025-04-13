@@ -3,7 +3,7 @@
 title: Git 提交规范/提交流程
 date: 2024/06/25
 tags: [计算机, git]
-categories: [Git]
+categories: [技术学习]
 description: 
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif

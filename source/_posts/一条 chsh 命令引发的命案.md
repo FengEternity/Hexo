@@ -6,8 +6,7 @@ tags:
   - Shell
   - 交流重要性
   - 数据备份
-categories:
-  - linux
+categories: [技术学习]
 cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/resource-8526a92ba76ef090a62109a6-76851.jpg?imageSlim
 katex: true
 mathjax: true

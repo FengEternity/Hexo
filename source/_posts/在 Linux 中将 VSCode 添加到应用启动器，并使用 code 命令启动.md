@@ -5,8 +5,7 @@ date: 2024/12/19
 tags:
   - arch
   - linux
-categories: 
-  - linux
+categories: [技术学习]
 
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/41370f2e263ceb323994939fe9f9ae4e.jpg

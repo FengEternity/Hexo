@@ -3,7 +3,7 @@
 title: 深入理解C++中的构造函数
 date: 2024/07/13
 tags: [cpp, 计算机]
-categories: [C++]
+categories: [技术学习]
 description: 深入理解C++中的构造函数
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/v2-3651de3ebf61bf3c4934f32994261477_720w.gif

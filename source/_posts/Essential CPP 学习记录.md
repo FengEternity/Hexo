@@ -4,8 +4,7 @@ date: 2024/10/23
 tags:
   - cpp
   - 计算机
-categories:
-  - C++
+categories: [技术学习]
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241023201325.png

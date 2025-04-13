@@ -3,7 +3,7 @@
 title: 链表part01
 date: 2024/05/31
 tags: [cpp, 计算机, leetcode, 秋招, 算法]
-categories: [算法]
+categories: [技术学习]
 description: 链表part01
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image.jpeg

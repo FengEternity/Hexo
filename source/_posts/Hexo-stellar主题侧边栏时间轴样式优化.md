@@ -1,13 +1,8 @@
 ---
 title: Hexo-stellar主题侧边栏时间轴样式优化
-date: 2025-04-11
-categories:
-  - Blog
-tags:
-  - Hexo
-  - CSS
-  - 前端开发
-  - 优化
+date: 2024-05-11
+tags: [Hexo, 主题开发, 样式优化]
+categories: 博客优化
 description: "本文介绍了Hexo Stellar主题侧边栏时间轴样式的优化过程，包括数据配置、模板优化和样式美化。通过调整HTML结构、添加CSS样式，实现了清晰视觉层次、精致细节处理、合理间距布局和优雅交互效果，提升了时间轴的美观度和用户体验。"
 ---
 

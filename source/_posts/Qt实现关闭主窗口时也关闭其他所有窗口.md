@@ -5,7 +5,7 @@ tags:
   - cpp
   - QT
 categories:
-  - C++
+  - 项目开发
 description: Qt实现关闭主窗口时也关闭其他所有窗口
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220530203948_dd1b1.gif

@@ -6,7 +6,7 @@ tags:
   - 配置优化
   - 插件安装
 categories:
-  - linux
+  - 技术学习
 cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/VIM-Editor.jpg.webp?imageSlim
 author: Forsertee
 type: tech

@@ -1,12 +1,9 @@
 ---
 title: 《C程序设计语言》—— 学习记录
-date: 2025/4/9
-tags:
-  - C语言
-  - 读书笔记
+date: 2025-04-10
+tags: [C语言, 编程学习]
 cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/O1CN01ipxyGT1jCXoBnsQz3_!!6000000004512-2-yinhe.png?imageSlim
-categories:
-  - 读书笔记
+categories: 技术学习
 description: 
 author: Forsertee
 type: tech

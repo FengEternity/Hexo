@@ -5,7 +5,7 @@ tags:
   - cpp
   - cpp
 categories:
-  - 数据库
+  - 技术学习
 description: SQL 学习记录
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20241029153626.png

@@ -3,7 +3,7 @@
 title: C++编译相关知识
 date: 2024/07/11
 tags: [cpp, 计算机]
-categories: [C++]
+categories: [技术学习]
 description: C++编译相关知识
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20220629231150_51a75.gif

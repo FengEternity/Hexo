@@ -3,7 +3,7 @@
 title: Blog 更新日志暨Hello World
 date: 2024/05/07
 tags: [Blog]
-categories: [Blog]
+categories: [博客优化]
 description: 用于记录此博客的更新日志；同时，程序员不可越少的一集：问候世界
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 

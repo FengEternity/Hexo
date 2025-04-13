@@ -3,7 +3,7 @@ title: FileTag 开发记录、源码分析（CMakeLists.txt main.cpp）
 date: 2024/07/17
 tags: [C++, 项目开发]
 categories:
-  - C++
+  - 项目开发
 description: 
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif

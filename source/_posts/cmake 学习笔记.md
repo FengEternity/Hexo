@@ -3,8 +3,7 @@
 title: cmake 学习笔记
 date: 2024/12/18
 tags: [cpp, 计算机, cmake]
-categories: [C++]
-description: cmkae 学习笔记
+categories: [技术学习]
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedokEUIAAAeWU6AEzyCfDlt963F0IAYhAgNpijCt~tplv-dy-aweme-images%3Aq75.webp
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedokEUIAAAeWU6AEzyCfDlt963F0IAYhAgNpijCt~tplv-dy-aweme-images%3Aq75.webp
