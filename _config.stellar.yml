@@ -85,6 +85,7 @@ site_tree:
     rightbar: tagcloud
     nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...
       # '朋友文章': /friends/rss/
+      '开往': https://www.travellings.cn/go.html
   # 博客专栏列表页配置
   index_topic:
     base_dir: topic # 只影响自动生成的页面路径
