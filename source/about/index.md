@@ -29,3 +29,31 @@ IntelliSearch 是一个基于AI大语言模型的对话式搜索引擎，旨在�
 * C/C++ | Python ……
 * Linux | Cmake | LLM | Qt | 数据分析 | 图像处理 | 深度学习 | ……
 * 多线程编程 | 网络编程 | ……
+
+
+# 博客更新日志
+
+{% timeline %}
+
+<!-- node 2025 年 4 月 13 日 -->
+开始做一些自定义的美化：
+* [侧边栏时间轴样式优化](https://www.montylee.cn/2025/04/11/Hexo-stellar%E4%B8%BB%E9%A2%98%E4%BE%A7%E8%BE%B9%E6%A0%8F%E6%97%B6%E9%97%B4%E8%BD%B4%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96/)
+* [文章更新的热力图设计实现](https://www.montylee.cn/2025/04/12/Hexo-stellar%E5%8D%9A%E5%AE%A2%E7%83%AD%E5%8A%9B%E5%9B%BE%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/)
+
+
+<!-- node 2025 年 4 月 9 日 -->
+* 谷歌收录，并提交站点地图
+* 实现RSS订阅
+
+
+<!-- node 2024 年 6 月 7 日 -->
+评论功能设置成功
+
+<!-- node 2024 年 5 月 8 日 -->
+完成图床、静态友链的配置
+
+<!-- node 2024 年 5 月 7 日 -->
+部署成功啦！
+{% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png width:300px %}
+
+{% endtimeline %}
