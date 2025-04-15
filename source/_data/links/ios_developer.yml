@@ -26,16 +26,16 @@
 
 - title: 钟意
   url: https://blog.thatcoder.cn
-  cover: https://upyun.thatcdn.cn/hexo/stellar/image/favicon.webp
+  cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/favicon2.png?imageSlim
   description: 那个码农
 
 
 - title: 姜绍彬的博客
   url: https://shaobin-jiang.github.io/blog
-  cover: https://shaobin-jiang.github.io/blog/favicon.ico
+  cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/favicon.png?imageSlim
   description: 聊聊技术
 
 - title: 百里飞洋の博客
   url: https://blog.meta-code.top/
-  cover: https://avatars.githubusercontent.com/u/81922999?v=4
+  cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/81922999.jpeg?imageSlim
   description: 星河滚烫，无问西东。
