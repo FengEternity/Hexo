@@ -6,7 +6,6 @@ tags:
   - Ai
 categories:
   - 技术学习
-description: 一个用来降低论文文本AIGC率的 prompt
 author: Forsertee
 type: tech
 ---
