@@ -94,6 +94,20 @@ site_tree:
       '友链': /friends/
       '开往': https://www.travellings.cn/go.html
 
+  #  '主页': /
+  #  '文章':
+  #    '分类': /categories/
+  #    '标签': /tags/
+  #    '专栏': /columns/
+  #    '归档': /archives/
+  #    '随机': /random/
+  #   '关于':
+  #     '关于': /about/
+  #     '博客': /blog/
+  #     '友链': /friends/
+  #   '世界':
+  #     '开往': https://www.travellings.cn/go.html
+
 
   # 博客专栏列表页配置
   index_topic:
