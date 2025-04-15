@@ -23,8 +23,13 @@ head:
       content: "google3c717581e81205ca"
   script:
     - '<script defer src="/_vercel/insights/script.js"></script>'
-
-
+  link:
+    - rel: "shortcut icon"
+      href: "/images/icons16.ico"
+    - rel: "icon"
+      type: "image/x-icon"
+      href: "/images/icons16.ico"
+    
 ######## Sidebar ########
 # 左上角显示的 logo 区域，包含图标、大标题、副标题
 logo:

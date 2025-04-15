@@ -135,3 +135,6 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# Favicon
+favicon: /images/icons32.ico
