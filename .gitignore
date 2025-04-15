@@ -13,3 +13,4 @@ source/_posts/.obsidian/plugins/editing-toolbar/main.js
 source/_posts/.obsidian/plugins/editing-toolbar/styles.css
 
 public/
+.elog.env
