@@ -75,8 +75,8 @@ site_tree:
   # -- 列表类页面 -- #
   # 主页配置
   home:
-    leftbar: recent
-    rightbar: welcome, tagcloud, timeline
+    leftbar: welcome, recent
+    rightbar: tagcloud, timeline
   # 博客列表页配置
   index_blog:
     base_dir: blog # 只影响自动生成的页面路径
@@ -86,6 +86,7 @@ site_tree:
     nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...
       # '朋友文章': /friends/rss/
       '关于': /about/
+      '友链': /friends/
       '开往': https://www.travellings.cn/go.html
 
 
@@ -291,9 +292,9 @@ footer:
       icon: '<img src="https://img.icons8.com/puffy/32/new-post.png"/>'
       url: mailto:forsertee@foxmail.com
 
-    link:
-      icon: '<img src="https://img.icons8.com/windows/32/link.png"/>'
-      url: /friends/
+    # link:
+    #   icon: '<img src="https://img.icons8.com/windows/32/link.png"/>'
+    #   url: /friends/
 
     love:
       icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
