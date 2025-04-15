@@ -327,12 +327,12 @@ footer:
       - '[FileTag](https://github.com/FengEternity/FileTag)'
     '社交':
       - '[友链](https://www.montylee.cn/friends/)'
-      - '[留言板](/)'
+      - '[开往](https://www.travellings.cn/go.html/)'
     '更多':
       - '[关于本站](https://www.montylee.cn/about/)'
       - '[GitHub](https://github.com/FengEternity)'
   content: |
-    © 2024 Forsertee | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
+    © 2025 <a href="https://www.montylee.cn/about/" target="_blank">Forsertee</a>  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
     <div style="line-height: 0.8em;">
       <span>本站已颠沛流离 <span id="site-runtime"></span></span>
       <span id="busuanzi_container_site_pv">| 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
