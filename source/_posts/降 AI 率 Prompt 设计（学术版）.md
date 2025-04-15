@@ -8,6 +8,7 @@ categories:
   - 技术学习
 author: Forsertee
 type: tech
+description: 本文设计实现了一个prompt，帮助降低论文的AGI检测率，确保原创性。通过调整句式、词汇和逻辑结构，使内容更符合人类写作习惯，同时保持学术规范。工作流程包括分析文本、识别AI特征、优化表达并验证效果。示例展示改写前后的对比，工具（如cherry-studio）辅助检测，优化后AGI率显著下降。
 ---
 
 ```markdown
