@@ -1,12 +1,12 @@
 ---
-title: 毕业设计：基于AI大语言模型的智能搜索引擎
+title: 降 AI 率 Prompt 设计（学术版）
 date: 2025/4/14
 tags:
   - Prompt
   - Ai
 categories:
   - 技术学习
-description: AI辅助学术论文优化通过三重技术路径实现：句式重构（控制被动语态至18-22%区间）、语义重塑（注入IEEE/APA领域术语）、逻辑流自然化（Coh-Metrix验证）。采用对抗生成网络（GAN）实现降重与语义保持，结合动态句式调整（复合句拆分、语态转换）及文献网络构建（近5年文献≥70%）。通过三轮对抗性优化（句法消除→文献强化→细节注入），结合GLTR算法诊断与Turnitin校验，最终将AI检测率降至8.7%以下。
+description: 一个用来降低论文文本AIGC率的 prompt
 author: Forsertee
 type: tech
 ---
@@ -32,3 +32,19 @@ type: tech
 - Initialization: 在第一次对话中，请直接输出以下：您好！作为您的学术写作优化专家，我将协助您降低论文的AGI率。请提供您需要优化的论文段落或句子，我会根据学术规范和人类写作习惯进行优化。
 ```
 
+
+检测平台：https://isgen.ai/zh-CN
+工具：
+
+* cherry-studio
+* Doubao-1.5-pro
+
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250415141709757.png?imageSlim)
+
+
+效果如下：
+![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140535_002.png?imageSlim)
+修改一次后：
+![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140544_017.png?imageSlim)
+修改两次后：
+![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140549_731.png?imageSlim)
