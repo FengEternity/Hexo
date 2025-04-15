@@ -67,6 +67,10 @@ timeline:
   layout: timeline  # 使用原来的 timeline 布局
   title: 近期动态
   data:  # 使用静态数据
+    - date: 2025-4-15
+      content: |
+        写毕业论文写到想吐，[毕业设计：基于AI大语言模型的智能搜索引擎](https://www.montylee.cn/2025/04/15/毕业设计：基于AI大语言模型的智能搜索引擎/)
+
     - date: 2025-4-11
       content: |
         拿到春招第二个 offer —— 烽火通信。考虑拒掉了。经典国企学历厂，我校几乎就是底线，加上裁应届生的过往经历，果断拒了。
