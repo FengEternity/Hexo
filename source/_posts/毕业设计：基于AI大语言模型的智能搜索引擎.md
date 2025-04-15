@@ -1,8 +1,8 @@
 ---
 title: 毕业设计：基于AI大语言模型的智能搜索引擎
-date: 2025/4/114
+date: 2025/4/14
 tags:
-  - "#Ai"
+  - Ai
   - 搜索引擎
   - LLM
 categories:
