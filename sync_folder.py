@@ -418,8 +418,12 @@ if __name__ == '__main__':
         '.sync_state'  # 添加状态文件到忽略列表
     ]
 
+    # 同步两个文件夹
+    folder_a = '/Users/montylee/Library/Mobile Documents/iCloud~md~obsidian/Documents/Forsertee'
+    folder_b = '/Users/montylee/Forsertee/Hexo/source/_posts'
+
     sync_two_ways(
-        '/Users/montylee/Library/Mobile Documents/iCloud~md~obsidian/Documents/Forsertee', 
-        '/Users/montylee/Forsertee/Hexo/source/_posts',
+        folder_a, 
+        folder_b,
         ignore_patterns=custom_ignore
     )
