@@ -4,8 +4,6 @@ title: 友链
 date: 2024/05/08/10/07
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 ---
-<br />
-
 # 网络的小伙伴
 
 <center>{% friends ios_developer %}</center>
@@ -14,6 +12,11 @@ banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png
 
 
 <center>{% friends sast %}</center>
+
+# 互联网世界
+
+<center>{% sites sites_link %}
+
 
 
 # 本站信息
