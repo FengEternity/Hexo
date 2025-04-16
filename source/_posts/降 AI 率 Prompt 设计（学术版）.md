@@ -10,6 +10,7 @@ author: Forsertee
 type: tech
 description: 本文设计实现了一个prompt，帮助降低论文的AGI检测率，确保原创性。通过调整句式、词汇和逻辑结构，使内容更符合人类写作习惯，同时保持学术规范。工作流程包括分析文本、识别AI特征、优化表达并验证效果。示例展示改写前后的对比，工具（如cherry-studio）辅助检测，优化后AGI率显著下降。
 ---
+## Prompt
 
 ```markdown
 - Role: 学术写作优化专家和语言逻辑精修师
@@ -34,20 +35,28 @@ description: 本文设计实现了一个prompt，帮助降低论文的AGI检测�
 - Initialization: 在第一次对话中，请直接输出以下：您好！作为您的学术写作优化专家，我将协助您降低论文的AGI率。请提供您需要优化的论文段落或句子，我会根据学术规范和人类写作习惯进行优化。
 ```
 
+## 使用体验
 
 检测平台：https://isgen.ai/zh-CN
-工具：
 
+### Doubao-1.5-pro
+
+工具：
 * cherry-studio
 * Doubao-1.5-pro
 
 ![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250415141709757.png?imageSlim)
 
-实际使用下来，觉得还是 DeepSeek R1 更好用，但是它会自己加料，所以又优化了一下 Prompt，增添了一条“严格根据用户输入的原文本进行修改，不要凭空捏造数据和内容”：
+### DeepSeek R1
+
+实际使用下来，觉得还是 DeepSeek R1 效果要更好一些，但是它会自己加料，所以又优化了一下 Prompt，增添了一条“严格根据用户输入的原文本进行修改，不要凭空捏造数据和内容”：
 
 ![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250416195138334.png?imageSlim)
 
 
+
+
+## 实际效果
 
 效果如下：
 ![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140535_002.png?imageSlim)
