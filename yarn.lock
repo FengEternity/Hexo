@@ -746,6 +746,11 @@ hexo-theme-landscape@^1.0.0:
   resolved "https://mirrors.cloud.tencent.com/npm/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
   integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
+hexo-theme-yun@^1.10.11:
+  version "1.10.11"
+  resolved "https://registry.npmjs.org/hexo-theme-yun/-/hexo-theme-yun-1.10.11.tgz"
+  integrity sha512-EEzZWEm0fHOXHs7rpYXYYx5B8h1b2y2O+VRUu2nO4VwD2FWkg34mYeapqeFIAcI9bXfGxONcisq2gS5LOVo0+w==
+
 hexo-util@^2.1.0:
   version "2.7.0"
   resolved "https://registry.npmjs.org/hexo-util/-/hexo-util-2.7.0.tgz"
