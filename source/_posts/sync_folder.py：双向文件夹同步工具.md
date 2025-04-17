@@ -7,7 +7,8 @@ tags:
   - Blog
   - 跨设备同步
 categories:
-  - 技术学习
+  - 项目开发
+  - Python
 author: Forsertee
 type: tech
 description: 使用Python开发双向文件夹同步工具，自动检测变更、解决冲突，保持文件一致性。
