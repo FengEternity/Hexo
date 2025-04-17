@@ -140,3 +140,10 @@ feed:
 
 # Favicon
 favicon: /images/icons32.ico
+
+# mermaid chart 配置
+mermaid:
+  enable: true  # 默认启用
+  version: "7.1.2" # mermaid 版本
+  options:
+    startOnLoad: true  # 页面加载时自动渲染

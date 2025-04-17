@@ -16,3 +16,8 @@
   icon: https://static.jyshare.com/images/icon/mobile-icon.png
   description: 学的不仅是技术，更是梦想
 
+- title: Hexo
+  url: https://hexo.io/zh-cn/
+  cover: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250417130743546.png?imageSlim
+  icon: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/hexologo.svg?imageSlim
+  description: 一个快速、简洁且高效的博客框架
