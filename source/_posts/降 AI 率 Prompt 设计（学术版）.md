@@ -37,7 +37,10 @@ description: 本文设计实现了一个prompt，帮助降低论文的AGI检测�
 
 ## 使用体验
 
-检测平台：https://isgen.ai/zh-CN
+检测平台：
+* https://isgen.ai/zh-CN
+* https://neuralwriter.com/zh/content-detector-tool/
+* https://matrix.tencent.com/ai-detect/ai_gen_txt
 
 ### Doubao-1.5-pro
 
