@@ -7,7 +7,6 @@ tags:
   - AI
 categories:
   - 项目开发
-  - JavaScript
 author: Forsertee
 type: tech
 description: hexo-auto-description是Hexo插件，自动生成博客摘要。它利用MoonShot AI API，提供配置选项和环境变量设置。技术实现包括Prompt设计、长度控制、请求控制和错误处理。插件代码支持并发处理和API状态验证。

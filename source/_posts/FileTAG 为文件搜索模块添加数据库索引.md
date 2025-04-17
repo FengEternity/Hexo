@@ -6,8 +6,8 @@ tags:
   - QT
   - 多线程
   - 数据库
-categories: [项目开发, C++]
-description: 
+categories: [项目开发]
+description: 本文探讨了利用SQLite数据库提升文件搜索效率的方案。通过FileDatabase类，实现了文件信息的持久化存储和高效索引，包括数据库连接、表结构设计、数据插入、关键词管理和文件搜索等。同时，讨论了批量更新、数据库与文件系统搜索平衡、数据库更新和索引表设计等挑战。
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 banner: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/20200317211943_Ts5Y5.gif
 poster:
@@ -28,7 +28,6 @@ rightbar:
 h1: 
 type: tech
 ---
-
 这个模块起初是基于一篇文章的启发：[Everything 原理与实现](https://www.cnblogs.com/xuanxu233/p/16083526.html) 当然，Everything 并不是一个开源的软件，其真实的原理，我也没有查到。
 
 在 101 询问了一下，或许可以通过使用数据库索引的方式来优化文件索引过程，提高搜索速度。本篇博客将分享如何通过引入 SQLite 数据库，实现文件信息的持久化存储和高效索引，显著提升文件搜索的性能。
@@ -320,4 +319,4 @@ QVector<QString> FileSearch::extractKeywordsFromFile(const QString &filePath) {
 5. 如何合理的设计索引表，即如何把文件书转化为关系型数据库，要能够在不占用过多磁盘空间的前提下，设计出一种便于搜索的数据表
 6. 在程序启动时，要能对数据库进行判断，是建立新的文件索引数据库，或者是检查更新
 7. 数据库安全问题
-8. ……  
+8. ……
