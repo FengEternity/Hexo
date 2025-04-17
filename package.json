@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
+    "axios": "^1.8.4",
     "hexo": "^7.0.0",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-filter-mermaid-diagrams": "^1.0.5",

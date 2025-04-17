@@ -537,24 +537,26 @@ plugins:
     interval: 100 # ms
     scale: 1 # 0.1~1
   
-  # AI 摘要
-  # https://github.com/qxchuckle/Post-Summary-AI
-  tianli_gpt: 
-    enable: false #true
-    js: https://jsd.onmicrosoft.cn/gh/qxchuckle/Post-Summary-AI@6.0/chuckle-post-ai.min.js
-    field: post # all, post, wiki
-    key: xaLGLXfTGWu # tianli_gpt key
-    total_length: 5000 # 设置提交的字数限制，默认为1000字，上限为5000，超过5000字符将被截断
-    typewriter: true # 打字机动画 
-    summary_directly: false # 是否直接显示摘要，否则显示 AI 简介
-    rec_method: all # all, web # 文章推荐方式，all：匹配数据库内所有文章进行推荐，web：仅当前站内的文章，默认all
-    hide_shuttle: true # 是否隐藏矩阵穿梭
-    summary_toggle: false
-    interface:
-      name: AI摘要
-      introduce: '我是文章辅助AI: QX-AI，点击下方的按钮，让我生成本文简介、推荐相关文章等。'
-      version: TianliGPT
-      button: ["介绍自己", "推荐文章", "生成摘要", "矩阵穿梭"]
+  # Hexo Auto Description 插件配置示例
+  auto_description:
+    # AI 模型配置
+    api_key: $KIMI_API_KEY
+    model: 'moonshot-v1-8k'  # 使用的 AI 模型
+    temperature: 0.7         # 生成文本的随机性 (0-1)
+    max_tokens: 200         # 生成文本的最大长度
+
+    # 摘要配置
+    minLength: 30         # 摘要最小字数
+    maxLength: 50         # 摘要最大字数
+    language: 'zh'         # 摘要语言，支持 'zh'(中文) 或 'en'(英文)
+
+    # 更新策略
+    updateWindow: 300000   # 更新时间窗口，单位：毫秒（默认5分钟）
+    forceUpdate: false     # 是否强制更新所有文章
+
+    # 错误处理
+    maxRetries: 3         # 生成失败时的最大重试次数
+    retryDelay: 1000      # 重试间隔，单位：毫秒 
 
 
   # Katex - The fastest math typesetting library for the web
