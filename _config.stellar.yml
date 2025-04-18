@@ -361,6 +361,9 @@ footer:
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"3LuGrhNZkG75ieAi",ck:"3LuGrhNZkG75ieAi"})</script>
+    <!-- vercel统计 -->
+    <script defer src="https://cdn.vercel-insights.com/v1/script.debug.js"></script>
+    <!-- 本站运行时间 -->
     <script>
       function updateSiteRuntime() {
           const startTime = new Date('2024-05-07').getTime(); // 将此处的日期改为您的网站开始运行的时间
