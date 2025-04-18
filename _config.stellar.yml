@@ -358,6 +358,9 @@ footer:
       <span id="busuanzi_container_site_pv">| 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
     </div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!-- 51LA统计 -->
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"3LuGrhNZkG75ieAi",ck:"3LuGrhNZkG75ieAi"})</script>
     <script>
       function updateSiteRuntime() {
           const startTime = new Date('2024-05-07').getTime(); // 将此处的日期改为您的网站开始运行的时间
