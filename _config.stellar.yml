@@ -358,9 +358,6 @@ footer:
       <span id="busuanzi_container_site_pv">| 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
     </div>
     <!-- 51LA统计 -->
-    <div class="51la-statistics" style="line-height: 3em;">
-      <span>数据概况： 今日访问量 <span id="51la-today-views"></span> | 昨日访问量 <span id="51la-yesterday-views"></span> | 本月访问量 <span id="51la-month-views"></span>
-    </div>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     <script>LA.init({id:"3LuGrhNZkG75ieAi",ck:"3LuGrhNZkG75ieAi"})</script>
