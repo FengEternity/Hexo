@@ -88,11 +88,27 @@ site_tree:
     menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
     leftbar: welcome, recent # for categories/tags/archives
     rightbar: tagcloud, catelinks
-    nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...
-      # '朋友文章': /friends/rss/
-      '关于': /about/
-      '友链': /friends/
-      '开往': https://www.travellings.cn/go.html
+    # 已弃用，在themes/stellar/layout/_partial/main/navbar/nav_tabs_blog.ejs配置
+    # nav_tabs:
+    #   '主页': '/'
+    #   '文章':
+    #     path: '/archives/'  # 父级菜单的默认路径
+    #     children:
+    #       '分类': '/categories/'
+    #       '标签': '/tags/'
+    #       '专栏': '/columns/'
+    #       '归档': '/archives/'
+    #       '随机': '/random/'
+    #   '关于':
+    #     path: '/about/'
+    #     children:
+    #       '关于': '/about/'
+    #       '博客': '/blog/'
+    #       '友链': '/friends/'
+    #   '世界':
+    #     path: '#'
+    #     children:
+    #       '开往': 'https://www.travellings.cn/go.html'
 
   #  '主页': /
   #  '文章':
