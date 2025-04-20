@@ -88,40 +88,6 @@ site_tree:
     leftbar: welcome, recent # for categories/tags/archives
     rightbar: tagcloud, catelinks
     # 已弃用，在themes/stellar/layout/_partial/main/navbar/nav_tabs_blog.ejs配置
-    # nav_tabs:
-    #   '主页': '/'
-    #   '文章':
-    #     path: '/archives/'  # 父级菜单的默认路径
-    #     children:
-    #       '分类': '/categories/'
-    #       '标签': '/tags/'
-    #       '专栏': '/columns/'
-    #       '归档': '/archives/'
-    #       '随机': '/random/'
-    #   '关于':
-    #     path: '/about/'
-    #     children:
-    #       '关于': '/about/'
-    #       '博客': '/blog/'
-    #       '友链': '/friends/'
-    #   '世界':
-    #     path: '#'
-    #     children:
-    #       '开往': 'https://www.travellings.cn/go.html'
-
-  #  '主页': /
-  #  '文章':
-  #    '分类': /categories/
-  #    '标签': /tags/
-  #    '专栏': /columns/
-  #    '归档': /archives/
-  #    '随机': /random/
-  #   '关于':
-  #     '关于': /about/
-  #     '博客': /blog/
-  #     '友链': /friends/
-  #   '世界':
-  #     '开往': https://www.travellings.cn/go.html
 
 
   # 博客专栏列表页配置
@@ -314,25 +280,25 @@ comments:
 ######## Footer ########
 footer:
   social:
-    github:
-      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
-      url: https://github.com/FengEternity
+    # github:
+    #   icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/>'
+    #   url: https://github.com/FengEternity
 
-    rss:
-      icon: '<img src="https://img.icons8.com/forma-light/24/rss.png"/>'
-      url: /rss/atom.xml
+    # rss:
+    #   icon: '<img src="https://img.icons8.com/forma-light/24/rss.png"/>'
+    #   url: /rss/atom.xml
 
-    email:
-      icon: '<img src="https://img.icons8.com/puffy/32/new-post.png"/>'
-      url: mailto:forsertee@foxmail.com
+    # email:
+    #   icon: '<img src="https://img.icons8.com/puffy/32/new-post.png"/>'
+    #   url: mailto:forsertee@foxmail.com
 
     # link:
     #   icon: '<img src="https://img.icons8.com/windows/32/link.png"/>'
     #   url: /friends/
 
-    love:
-      icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
-      url: https://fengeternity.github.io/love/index.html
+    # love:
+    #   icon: '<img src="https://img.icons8.com/color/48/two-hearts.png"/>'
+    #   url: https://fengeternity.github.io/love/index.html
 
 
 
