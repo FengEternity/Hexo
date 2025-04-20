@@ -2,6 +2,7 @@
 menu_id: about
 title: 关于
 banner: https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/code-5113374_1280.jpg?imageSlim
+rightbar: toc, timeline
 ---
 # 自我介绍
 > 苏格拉底：我唯一知道的就是我一无所知
