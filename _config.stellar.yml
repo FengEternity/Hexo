@@ -5,6 +5,8 @@ stellar:
   repo: 'https://github.com/xaoxuu/hexo-theme-stellar'
   main_css: /css/main.css
   main_js: /js/main.js
+  # 添加自定义CSS引用
+  custom_css: /css/custom.css
 
 
 ######## head tags ########
@@ -33,7 +35,7 @@ head:
 ######## Sidebar ########
 # 左上角显示的 logo 区域，包含图标、大标题、副标题
 logo:
-  avatar: 'https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/b_aa360d0e9f50e6378c4d0d9fafbe9aa5.jpg' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  avatar: '/images/avatar/avatar.jpg' # 使用本地图片替代远程图片
   title: 'Forsertee' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   subtitle: '温良慎独 | 自由从容' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
