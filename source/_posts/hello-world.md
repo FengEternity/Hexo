@@ -4,7 +4,7 @@ title: Blog 更新日志暨Hello World
 date: 2024/05/07
 tags: [Blog]
 categories: [博客优化]
-description: 作者使用Hexo和Stellar主题创建个人博客，通过GitHub和Vercel实现无服务器部署。文章记录了从部署到功能添加的每一步，并列出了待完善的项目，如美化和动画设置。已完成的任务包括图床、友链、评论插件、发布时间、footer倒计时、侧栏公告和索引、RSS订阅以及文章密码验证阅读等。提供相关资源链接。
+description: 作者使用Hexo和Stellar主题创建并部署个人博客至GitHub和Vercel，实现了开屏动画、友链、自定义美化、谷歌收录和RSS订阅等功能。已完成任务包括图床、友链页面、评论插件配置等，待完善。文章还分享了相关资源链接。
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 
 banner: 
