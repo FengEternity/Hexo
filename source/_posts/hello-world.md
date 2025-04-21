@@ -4,7 +4,7 @@ title: Blog 更新日志暨Hello World
 date: 2024/05/07
 tags: [Blog]
 categories: [博客优化]
-description: 作者使用Hexo和Stellar主题创建并部署个人博客至GitHub和Vercel，实现了开屏动画、友链、自定义美化、谷歌收录和RSS订阅等功能。已完成任务包括图床、友链页面、评论插件配置等，待完善。文章还分享了相关资源链接。
+description: 作者使用Hexo和Stellar主题创建个人博客，托管于GitHub并通过Vercel实现无服务器部署。从2024年5月7日部署成功至2025年4月，博客经历了多次优化和功能添加，如评论、图床、友链页面和文章更新热力图。作者列出了待完善和已完成的任务，包括开屏动画、美化博客、RSS订阅和文章密码验证阅读等，并提供了相关资源链接。
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 
 banner: 
@@ -40,6 +40,8 @@ type: story # tech/story
 {% timeline %}
 <!-- node 2025 年 4 月 21 日 -->
 添加首页，实现开屏动画
+![Uploading file...r6d2h]()
+
 
 <!-- node 2025 年 4 月 13 日 -->
 加入[开往](https://www.travellings.cn)，一个让“友链”活跃起来的开源项目。
