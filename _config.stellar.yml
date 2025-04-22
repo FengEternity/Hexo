@@ -338,7 +338,8 @@ footer:
     © 2024-2025 <a href="https://www.montylee.cn/about/" target="_blank">Forsertee</a>  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
     <div style="line-height: 0.8em;">
       <span>本站已颠沛流离 <span id="site-runtime"></span></span>
-      <span id="busuanzi_container_site_pv">| 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
+      <span id="busuanzi_container_site_pv">| <span> <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备 20253251 号</a> </sapn>
+      | 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
     </div>
     <!-- 51LA统计 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -349,23 +350,21 @@ footer:
     <!-- 本站运行时间 -->
     <script>
       function updateSiteRuntime() {
-          const startTime = new Date('2024-05-07').getTime(); // 将此处的日期改为您的网站开始运行的时间
+          const startTime = new Date('2024-05-07').getTime(); // 网站开始运行的时间
           const currentTime = new Date().getTime();
           const runTime = currentTime - startTime;
           
+          // 只计算天数
           const days = Math.floor(runTime / (24 * 60 * 60 * 1000));
-          const hours = Math.floor((runTime % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
-          const minutes = Math.floor((runTime % (60 * 60 * 1000)) / (60 * 1000));
-          const seconds = Math.floor((runTime % (60 * 1000)) / 1000);
           
-          document.getElementById('site-runtime').innerHTML = 
-              days + "天" + hours + "小时" + minutes + "分" + seconds + "秒";
+          // 直接显示天数，不计算其他时间单位
+          document.getElementById('site-runtime').innerHTML = days + " 天";
       }
       
-      setInterval(updateSiteRuntime, 1000);
+      // 每天更新一次即可，不需要每秒更新
+      setInterval(updateSiteRuntime, 24 * 60 * 60 * 1000);
       updateSiteRuntime();
     </script>
-    <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备20253251号</a>
 
 ######## Tag Plugins ########
 tag_plugins:
