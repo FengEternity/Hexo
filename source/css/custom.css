@@ -1,0 +1,16 @@
+/* 自定义样式 */
+
+/* 修复欢迎页面图片懒加载问题 */
+.welcome-page img[no-lazy] {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* 确保普通懒加载图片也能正常显示 */
+.lazy {
+  display: block !important;
+}
+
+img.lazy[data-src] {
+  opacity: 1 !important;
+} 
