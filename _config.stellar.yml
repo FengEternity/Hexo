@@ -339,7 +339,7 @@ footer:
     <div style="line-height: 0.8em;">
       <span>本站已颠沛流离 <span id="site-runtime"></span></span>
       <span id="busuanzi_container_site_pv">| <span> <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备 20253251 号</a> </sapn>
-      | 您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
+      |  您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
     </div>
     <!-- 51LA统计 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

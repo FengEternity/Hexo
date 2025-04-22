@@ -4,7 +4,7 @@ title: Blog 更新日志暨Hello World
 date: 2024/05/07
 tags: [Blog]
 categories: [博客优化]
-description: Monty Lee创建的网站基于Hexo和Stellar，部署在GitHub和Vercel。更新包括首页、动画、友链等，已完成图床、评论插件、文章更新等任务，待完善美化和动画设置。
+description: 作者使用Hexo和Stellar主题创建个人博客，托管于GitHub并通过Vercel实现无服务器部署。从2024年5月7日部署成功至2025年4月，博客经历了多次优化和功能添加，如评论、图床、友链页面和文章更新热力图。作者列出了待完善和已完成的任务，包括开屏动画、美化博客、RSS订阅和文章密码验证阅读等，并提供了相关资源链接。
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 
 banner: 
@@ -38,13 +38,9 @@ type: story # tech/story
 {% quot 2. 更新时间线 %}
 
 {% timeline %}
-<!-- node 2025 年 4 月 22 日 -->
-* Bing收录，并提交站点地图
-
 <!-- node 2025 年 4 月 21 日 -->
 添加首页，实现开屏动画
-![Uploading file...r6d2h]()
-
+![image.png](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/20250422222706899.png?imageSlim)
 
 <!-- node 2025 年 4 月 13 日 -->
 加入[开往](https://www.travellings.cn)，一个让“友链”活跃起来的开源项目。
@@ -76,6 +72,9 @@ type: story # tech/story
 
 - [ ] 参考这个博客做一些美化：https://innei.in/
 	- [ ] 开屏动画的设置，可以结合我的 Github 首页修改
+	- [ ] 配色美化
+- [ ] 修改卡片样式，包括首页列表卡片和文章页头部卡片
+- [ ] 新增表格的自定义容器
 
 
 {% quot 4. 已完成 %}
@@ -86,29 +85,18 @@ type: story # tech/story
     - [x] ~~不过觉得安全性不高，后续考虑使用 GitHub 作为图床，本地使用 PigGo 上传，jsDelivr 实现 CDN 加速，参加 [如何使用jsDelivr+Github 实现免费CDN加速?](https://zhuanlan.zhihu.com/p/346643522)~~
     - [x] ~~实现使用腾讯云 COS+PicGo 实现图床（新买了一个存储桶后，发现去年买的还没过期，伤心了）~~
     - [x] PicGo 图床插件设置
-
 - [x] **友链和关于页面**
-  - [x] ~~尝试动态友链失败，最终还是选择了静态的友链~~
-  
+	- [x] ~~尝试动态友链失败，最终还是选择了静态的友链~~
 - [x] 评论插件配置
-  - [x] 使用 [giscus](https://giscus.app/zh-CN) 作为评论系统
-  
+	- [x] 使用 [giscus](https://giscus.app/zh-CN) 作为评论系统
 - [x] 文章页面发布和更新时间有问题
-
-  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
-
-  发现是写文章时填写时间有误，只能写年/月/日
-
+	{% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/image-20240508230949859.png  %}
+	发现是写文章时填写时间有误，只能写年/月/日
 - [x] **footer 部分的倒计时功能**
-
-  - [x] ~~初步实现功能~~
-
-  - [x] 美化，参见 [cayzlh](https://www.cayzlh.com)  
-
+	- [x] ~~初步实现功能~~
+	- [x] 美化，参见 [cayzlh](https://www.cayzlh.com)  
 - [x] **右侧栏公告及索引**
-
-  {% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedrightsides.png width:200px padding:16px bg:white %}
-
+	{% image https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/undefinedrightsides.png width:200px padding:16px bg:white %}
 - [x] **RSS 订阅**
 - [x] 博客文章密码验证阅读
 - [x] [小组件配置](https://xaoxuu.com/wiki/stellar/widgets/)
