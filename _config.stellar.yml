@@ -365,6 +365,7 @@ footer:
       setInterval(updateSiteRuntime, 1000);
       updateSiteRuntime();
     </script>
+    <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备20253251号</a>
 
 ######## Tag Plugins ########
 tag_plugins:
