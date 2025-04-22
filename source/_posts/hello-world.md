@@ -4,7 +4,7 @@ title: Blog 更新日志暨Hello World
 date: 2024/05/07
 tags: [Blog]
 categories: [博客优化]
-description: 作者使用Hexo和Stellar主题搭建个人博客，通过GitHub和Vercel实现无服务器部署。文章记录了从2024年5月7日部署到2025年4月22日Bing收录的关键更新和优化，包括图床、友链、评论插件等，并列出待完善和已完成的任务。
+description: Monty Lee创建的网站基于Hexo和Stellar，部署在GitHub和Vercel。更新包括首页、动画、友链等，已完成图床、评论插件、文章更新等任务，待完善美化和动画设置。
 # 封面
 cover: https://blog-imges-1313931661.cos.ap-nanjing.myqcloud.com/hello.png 
 banner: 
