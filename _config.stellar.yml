@@ -332,7 +332,7 @@ footer:
       - '[友链](https://www.montylee.cn/friends/)'
       - '[开往](https://www.travellings.cn/go.html/)'
     '更多':
-      - '[关于本站](https://www.montylee.cn/hello-world/)'
+      - '[RSS](https://www.montylee.cn/rss/atom.xml)'
       - '[GitHub](https://github.com/FengEternity)'
   content: |
     © 2024-2025 <a href="https://www.montylee.cn/about/" target="_blank">Forsertee</a>  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>

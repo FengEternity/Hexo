@@ -1,6 +1,6 @@
 ---
 # 基本信息
-title: Blog 更新日志暨Hello World
+title: Forsertee's Blog
 date: 2024/05/07
 tags: [Blog]
 categories: [博客优化]
