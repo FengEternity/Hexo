@@ -7,7 +7,7 @@ categories:
   - 技术学习
 author: Forsertee
 type: tech
-description: 本文分析了Git中的reset和checkout命令，解释了HEAD、Index和工作目录的作用，并详细阐述了reset命令的三种操作：移动HEAD指针、更新Index和更新工作区。文章还讨论了reset的路径操作和压缩提交记录，区分了reset和checkout对工作目录的影响，并提供了命令影响速查表，强调理解这些命令对高效使用Git的重要性。
+description: 本文分析了Git中的reset和checkout命令对HEAD、Index和工作目录的影响。解释了这三个树结构的作用，描述了reset如何操作它们，包括移动HEAD、更新Index和工作目录，以及带路径的reset和压缩提交记录。同时讨论了checkout与reset的区别，特别是在无路径和有路径情况下的行为，以及Detached HEAD的概念。目的是帮助读者深入理解reset命令，提高使用熟练度。
 ---
 # 引言
 
@@ -37,6 +37,8 @@ Git作为一个系统，在其正常操作中管理和操作三个树结构：
 | HEAD  | 上次提交快照，下一个父级 |
 | Index | 建议的下一个提交快照   |
 | 工作目录  | 沙盒           |
+
+
 ## HEAD
 
 HEAD 是指向当前分支引用的指针，而该引用又是指向在该分支上进行的最后一次提交的指针。这意味着 HEAD 将成为下一个创建的提交的父提交。通常，将 HEAD 简单地理解为该分支上最后一次提交的快照是最容易的。实际上，查看该快照的样子非常容易。以下是一个获取 HEAD 快照中每个文件的实际目录列表和 SHA-1 校验和的示例。
