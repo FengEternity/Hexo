@@ -7,7 +7,7 @@ categories:
   - 技术学习
 author: Forsertee
 type: tech
-description: 本文分析了Git中的reset和checkout命令对HEAD、Index和工作目录的影响。解释了这三个树结构的作用，描述了reset如何操作它们，包括移动HEAD、更新Index和工作目录，以及带路径的reset和压缩提交记录。同时讨论了checkout与reset的区别，特别是在无路径和有路径情况下的行为，以及Detached HEAD的概念。目的是帮助读者深入理解reset命令，提高使用熟练度。
+description: 文章分析了Git中Stellar主题部署失败的问题，深入探讨了reset和checkout命令。解释了HEAD、Index和工作目录的三棵树结构，以及reset命令如何操作这些结构。讨论了reset的不同选项（--soft、--mixed、--hard）及其影响，包括路径指定重置和压缩提交。文章还解释了Detached HEAD的概念及处理方法，并提供了reset和checkout命令影响的速查表。
 ---
 # 引言
 
@@ -33,7 +33,7 @@ description: 本文分析了Git中的reset和checkout命令对HEAD、Index和工
 Git作为一个系统，在其正常操作中管理和操作三个树结构：
 
 | Tree  | Role         |
-| ----- | ------------ |
+| :-----: | :------------: |
 | HEAD  | 上次提交快照，下一个父级 |
 | Index | 建议的下一个提交快照   |
 | 工作目录  | 沙盒           |
