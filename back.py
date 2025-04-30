@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 import numpy as np
 
-def create_textured_background(width=1920, height=1080, base_color=(255, 242, 242), noise_intensity=5):
+def create_textured_background(width=1920, height=1080, base_color=(237, 237, 237), noise_intensity=5):
     # 创建基础图像 - 使用完全相同的背景色
     image = Image.new('RGB', (width, height), base_color)
     

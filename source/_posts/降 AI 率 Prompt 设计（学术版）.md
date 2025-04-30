@@ -102,3 +102,10 @@ description: 本文提出了一种规避AI检测的学术文本重塑方法。�
 ![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140544_017.png?imageSlim)
 修改两次后：
 ![](https://blog-image-0407-1313931661.cos.ap-nanjing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2025-04-15_140549_731.png?imageSlim)
+
+## Tips
+
+### 使用类似于“如下图/表所示”的语句
+
+在使用“如下图1-1所示之前”，文本AI率为34%，将从“据IDC预测”一直到“深层次语义”的文字全部识别为AI。在添加这一段文字后，直接没了？？？
+![[Pasted image 20250425001231.png]]

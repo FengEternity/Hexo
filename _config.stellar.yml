@@ -335,11 +335,15 @@ footer:
       - '[RSS](https://www.montylee.cn/rss/atom.xml)'
       - '[GitHub](https://github.com/FengEternity)'
   content: |
-    © 2024-2025 <a href="https://www.montylee.cn/about/" target="_blank">Forsertee</a>  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
-    <div style="line-height: 0.8em;">
-      <span>本站已颠沛流离 <span id="site-runtime"></span></span>
-      <span id="busuanzi_container_site_pv">| <span> <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备 20253251 号</a> </sapn>
-      |  您是第 <span id="busuanzi_value_site_pv"></span> 位访客</span>
+    <div class="footer-content">
+      <div class="footer-main">
+        © 2024-2025 <a href="https://www.montylee.cn/about/" target="_blank">Forsertee</a>  | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://xaoxuu.com/wiki/stellar/" target="_blank">stellar</a>
+      </div>
+      <div class="footer-info">
+        本站已颠沛流离 <span id="site-runtime"></span> |
+        <a href="https://icp.gov.moe/?keyword=20253251" target="_blank">萌ICP备 20253251 号</a> |
+        您是第 <span id="busuanzi_value_site_pv"></span> 位访客
+      </div>
     </div>
     <!-- 51LA统计 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
