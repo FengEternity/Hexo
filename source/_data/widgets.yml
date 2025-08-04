@@ -67,6 +67,10 @@ timeline:
   layout: timeline  # 使用原来的 timeline 布局
   title: 近期动态
   data:  # 使用静态数据
+    - date: 2025-8-4
+      content: |
+        入职一个多月了，简单写写自己的感想：[入职第一个月总结](https://www.montylee.cn/2025/08/04/%E5%85%A5%E8%81%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%88%E6%80%BB%E7%BB%93%E2%80%94%E2%80%94%E6%87%B5%E6%87%82/)
+        
     - date: 2025-4-15
       content: |
         写毕业论文写到想吐，[毕业设计：基于AI大语言模型的智能搜索引擎](https://www.montylee.cn/2025/04/15/毕业设计：基于AI大语言模型的智能搜索引擎/)
